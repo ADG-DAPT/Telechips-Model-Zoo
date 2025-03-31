@@ -1,8 +1,12 @@
 # YOLO Series Benchmark on TCC750X
 
-Below is benchmark data for various YOLO models running on the **TCC750X (N-Dolphin)** platform.  
-This table allows you to compare the performance of each neural network when executed on the board.  
-Additionally, clicking on a model name will allow you to download the version formatted for execution on the device.
+# YOLO Series Benchmark on TCC750X
+
+Below is benchmark data for various **YOLO (You Only Look Once)** object detection models running on the **TCC750X (N-Dolphin)** platform.  
+YOLO models are widely known for their real-time performance and high accuracy in detecting multiple objects in a single pass over the image.  
+This benchmark covers multiple YOLO versions (v3 ~ v8, YOLOX, YOLOv6, etc.), providing insight into their speed and detection accuracy on embedded hardware.
+
+Clicking on a model name in the table allows you to download the binary, ready to run on the TCC750X board.
 
 ---
 
