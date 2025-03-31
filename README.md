@@ -3,14 +3,6 @@
 <a href="https://www.telechips.com/" target="_blank">
     <img src="./docs/image/telechips_ml_zoo_image.png" alt="Telechips ML Zoo">
 </a>
-<p align="center">
-    <img src="https://img.shields.io/github/stars/ADG-DAPT/ML-Zoo?style=social" />
-    <img src="https://img.shields.io/github/forks/ADG-DAPT/ML-Zoo?style=social" />
-    <img src="https://img.shields.io/github/issues/ADG-DAPT/ML-Zoo" />
-    <img src="https://img.shields.io/github/issues-pr/ADG-DAPT/ML-Zoo" />
-    <img src="https://img.shields.io/github/license/ADG-DAPT/ML-Zoo" />
-    </a>
-</p>
 
 Welcome to the Telechips Model Zoo!
 
@@ -28,13 +20,14 @@ This repository provides a collection of neural network models optimized for Tel
 Telechips offers three AI-enabled processors with integrated Neural Processing Units (NPU):
 
 ### TCC750x(N-Dolphin)
-8 TOPS – Designed for high-performance ADAS and vision-based applications, supporting multi-camera processing, driver monitoring (DMS), and advanced deep learning inference.
+4+4 TOPS – Designed for high-performance ADAS and vision-based applications, supporting multi-camera processing, driver monitoring (DMS), and advanced deep learning inference.
 
-<!-- ### TCC807x(Dolphin5)
+### TCC807x(Dolphin5)
 TBD – Specifications will be announced soon.
 
 ### TCA2x(A2X): 
-TBD – Specifications will be announced soon. -->
+TBD – Specifications will be announced soon. 
+
 
 This AI-enabled SoC offer real-time neural network inference capabilities with high efficiency and scalability for automotive applications.
 
@@ -240,42 +233,6 @@ Each model links to its dedicated page with performance metrics and deployment i
 </table>
 
 ---
-## **3. Getting Started**
-Follow the steps below to run a model on a Telechips EVB (Evaluation Board):
-
-### 1. Clone the repository:
-<pre> <code>
-git clone git@github.com:ADG-DAPT/Telechips-Model-Zoo.git
-</code> </pre>
-
-### 2. Copy the desired model to the EVB:
-Copy the entire model folder to your EVB, as each folder contains the necessary output files (.so, .bin, etc.).
-<pre> <code>
-scp -r [network_output_folder] root@192.168.0.100:/path/to/target/
-</code> </pre>
-Replace [network_output_folder] with the actual folder (e.g., yolov5m/)
-and <evb_ip> with the IP address of your EVB board.
-
-### ***Example: TCC750x - YOLOv5m Folder Structure***
-<pre> <code>
-yolov5m_quantized/
-├── net.so        # Compiled model library
-├── npu_cmd.bin       # Binary file of TCC750x NPU command code word
-└── quantized_network.bin # Binary file of Quantized weight and bias 
-</code> </pre>
-So you would run:
-<pre> <code>
-scp -r yolov5m_quantized/ root@192.168.0.100:/home/root/
-</code> </pre>
-
-### 3. Run the model using tcnputestapp or tcnnapp:
-<pre> <code>
-tcnputestapp -d 0 1 -n [network_output_folder_path]
-</code> </pre>
-or
-<pre> <code>
-tcnnapp -n [network_output_folder_path]
-</code> </pre>
 
 ## **4. History**
 ### REV. 0.1.0: 2025-03-31
