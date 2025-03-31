@@ -73,6 +73,8 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
     </tbody>
 </table>
 
+- - -
+
 ## 📥 Input Format
 
 - **Shape**: `(N x 3 x H x W)` — where N is batch size (typically 1), 3 channels (RGB), height and width ≥ 224.
@@ -92,4 +94,5 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
 - - -
 
 ## 🔗 Official Resources
-- 💻 [ONNX Model Zoo (MobileNet)](https://github.com/onnx/models/tree/main/validated/vision/classification/mobilenet)  
+- 💻 [ONNX Model Zoo (MobileNet)](https://github.com/onnx/models/tree/main/validated/vision/classification/mobilenet)
+- 📜 [MobileNet Paper](https://arxiv.org/abs/1801.04381)
