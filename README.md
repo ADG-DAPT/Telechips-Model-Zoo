@@ -234,11 +234,11 @@ Each model links to its dedicated page with performance metrics and deployment i
 
 ---
 
-## **4. History**
+## **3. History**
 ### REV. 0.1.0: 2025-03-31
 - Preliminary version release
 
 ---
 
-## **5. Todo**
+## **4. Todo**
 - Telechips proprietary neural network upload scheduled (~June 30)
