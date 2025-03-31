@@ -1,33 +1,35 @@
 # Object Detection Benchmark on TCC750X
-Below is the benchmark data for Object Detection models running on the TCC750X.
-This table allows you to check the performance of each neural network when executed on the N-Dolphin (TCC750X) board.
-Additionally, clicking on a neural network name will allow you to download a version formatted for execution on the board.
 
-- - -
+Below is benchmark data for various Object Detection models running on the **TCC750X (N-Dolphin)** platform.  
+This table allows you to compare the performance of each neural network when executed on the board.  
+Additionally, clicking on a model name will allow you to download the version formatted for execution on the device.
+
+---
 
 ### 📊 How to Read the Table Below
-| Column                       | Description                                                                 |
-|-----------------------------|-----------------------------------------------------------------------------|
-| **Model**                   | Name of the neural network model (clickable for download if available)     |
-| **Framework**               | Deep learning framework used (e.g., PyTorch, TFLite, ONNX)                 |
-| **Dataset**                 | Evaluation dataset (COCO val2017 or VOC2007 test set)                      |
-| **Input Size (WxHxC)**      | Model input resolution and channel configuration                           |
-| **Quantization Bit**        | Quantization level used (all models in INT8 format)                        |
-| **Compiled NN Information** | Size of the compiled neural network for TCC750X                            |
-| &nbsp;&nbsp;&nbsp;&nbsp;- Weight, Bias Binary Size (MB) | Binary size of model parameters                             |
-| &nbsp;&nbsp;&nbsp;&nbsp;- Command Binary Size (KB)      | Size of command structure for the model                     |
-| **Inference Time (msec)**   | Measured on the N-Dolphin EVB (lower is faster)                            |
-| **AP@[.50:.95]**            | Detection accuracy in mean average precision (COCO metric)                 |
-| **References**              | Link to the original model or GitHub repository                            |
 
-- - -
+| Column                    | Description                                                                 |
+|--------------------------|-----------------------------------------------------------------------------|
+| **Model**                | Name of the neural network model (clickable for download, if available)     |
+| **Framework**            | Deep learning framework used (e.g., PyTorch, TFLite, ONNX)                  |
+| **Dataset**              | Evaluation dataset (COCO val2017 or VOC2007 test set)                       |
+| **Input Size (WxHxC)**   | Model input resolution and channel configuration                            |
+| **Quantization Bit**     | Bit-depth used for quantization (e.g., INT8)                                |
+| **Binary Files Info.**   | Size of the compiled neural network binaries for TCC750X                    |
+| **Inference Time (ms)**  | Inference time measured on the N-Dolphin EVB                                |
+| **AP@50-95**             | Detection accuracy (mean Average Precision, COCO metric)                    |
+| **References**           | Link to the original GitHub repository of the model                         |
 
-### Reference Information
-- Results of the mAP is evaluated on COCO val2017 dataset (#5,000) or VOC2007 test dataset (#4,952).
-- Evaluation: Results obtained using the tc-nn-toolkit.
-    - FP32 results were measured with the tc-nn-toolkit after converting to the `.enlight` format.
-- Inference Time: Measured using the N-Dolphin EVB with Zero padding input image.
-- Reference: Links to the original GitHub repository of the neural network model.
+---
+
+### 📘 Reference Information
+
+- **mAP (mean Average Precision)** is evaluated on the **COCO val2017 dataset** (5,000 images) or the **VOC2007 test dataset** (4,952 images).
+- **Evaluation**: All results are obtained using the **tc-nn-toolkit**.
+  - **FP32 results** were measured using the tc-nn-toolkit after converting the model to the `.enlight` format.
+- **Inference Time**: Measured on the **N-Dolphin EVB** using zero-padded input images.
+- **References**: Each model includes a link to its original GitHub repository.
+
 
 
 <!--
@@ -52,15 +54,15 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <th rowspan="2">Framework</th>
             <th rowspan="2">Dataset</th>
             <th rowspan="2">Input Size (WxHxC)</th>
-            <th rowspan="2">Quantize Bit</th>
+            <th rowspan="2">Quantization Bit</th>
             <th colspan="2">Binary Files Info.</th>
             <th rowspan="2">Inference Time(ms)</th>
-            <th colspan="2">mAP<sup>val</sup>@50-95</th>
+            <th colspan="2">mAP@50-95</th>
             <th rowspan="2">References</th>
         </tr>
         <tr>
-            <th>Weight, Bias Binary Size(MB)</th>
-            <th>Command Binary Size(KB)</th>
+            <th>Weight & Bias Bin.(MB)</th>
+            <th>Command Bin.(KB)</th>
             <th>FP32</th>
             <th>INT8</th>
         </tr>
