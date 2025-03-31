@@ -58,7 +58,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
     </thead>
     <tbody>
         <tr>
-            <td align="center"><a href="MobileNet/mobileNetv2_10/">MobileNetv2-10</a></td> <!-- Model -->
+            <td align="center"><a href="mobileNetv2_10/">MobileNetv2-10</a></td> <!-- Model -->
             <td align="center">MXNet</td> <!-- Framework -->
             <td align="center">ImageNet</td> <!-- Detections/DataSet -->
             <td align="center">224x224x3</td> <!-- Input Size (WxHxC) -->
@@ -94,5 +94,5 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
 - - -
 
 ## 🔗 Official Resources
-- 💻 [ONNX Model Zoo (MobileNet)](https://github.com/onnx/models/tree/main/validated/vision/classification/mobilenet)
+- 💻 [MobileNet ONNX Github](https://github.com/onnx/models/tree/main/validated/vision/classification/mobilenet)
 - 📜 [MobileNet Paper](https://arxiv.org/abs/1801.04381)
