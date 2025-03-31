@@ -59,14 +59,9 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
     </thead>
     <tbody>
         <tr>
-<<<<<<< HEAD
-            <td align="center" colspan="2"><a href="MobileNet/lite-model_ssd_mobilenet_v1_100_320_fp32_nms_1/">mb1-ssd-lite</a></td> <!-- Model -->
-            <td align="center">TFLite</td> <!-- Framework -->
-=======
-            <td align="center" rowspan="2" class="model"><a href="MobileNet/">SSD-Lite</a></td> <!-- Model -->
+            <td align="center" rowspan="2" class="model"><a href="MobileNet/">SSDLite</a></td> <!-- Model -->
             <td align="center" class="variant"><a href="MobileNet/lite-model_ssd_mobilenet_v1_100_320_fp32_nms_1/">mb1</a></td>
             <td align="center">TensorFlow Lite</td> <!-- Framework -->
->>>>>>> 064eb989a9cd260e4be12162ca133769cc6200d4
             <td align="center">VOC</td> <!-- Detections/DataSet -->
             <td align="center">320x320x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
