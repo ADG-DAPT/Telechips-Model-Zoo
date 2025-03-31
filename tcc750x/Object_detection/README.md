@@ -10,27 +10,17 @@ Additionally, clicking on a model name will allow you to download the version fo
 
 | Column                    | Description                                                                 |
 |--------------------------|-----------------------------------------------------------------------------|
-| **Model**                | Name of the neural network model (clickable for download, if available)     |
+| **Model**                | Name of the neural network model     |
 | **Framework**            | Deep learning framework used (e.g., PyTorch, TFLite, ONNX)                  |
 | **Dataset**              | Evaluation dataset (COCO val2017 or VOC2007 test set)                       |
 | **Input Size (WxHxC)**   | Model input resolution and channel configuration                            |
 | **Quantization Bit**     | Bit-depth used for quantization (e.g., INT8)                                |
 | **Binary Files Info.**   | Size of the compiled neural network binaries for TCC750X                    |
-| **Inference Time (ms)**  | Inference time measured on the N-Dolphin EVB                                |
-| **AP@50-95**             | Detection accuracy (mean Average Precision, COCO metric)                    |
+| **Inference Time (ms)**  | Inference time measured on the N-Dolphin EVB using zero-padded input images.                               |
+| **mAP@50-95**             | mAP (mean Average Precision) is evaluated on the **COCO val2017 dataset** (5,000 images) or the **VOC2007 test dataset** (4,952 images).                    |
 | **References**           | Link to the original GitHub repository of the model                         |
 
 ---
-
-### 📘 Reference Information
-
-- **mAP (mean Average Precision)** is evaluated on the **COCO val2017 dataset** (5,000 images) or the **VOC2007 test dataset** (4,952 images).
-- **Evaluation**: All results are obtained using the **tc-nn-toolkit**.
-  - **FP32 results** were measured using the tc-nn-toolkit after converting the model to the `.enlight` format.
-- **Inference Time**: Measured on the **N-Dolphin EVB** using zero-padded input images.
-- **References**: Each model includes a link to its original GitHub repository.
-
-
 
 <!--
 아래는 TCC750X에서 실행되는 Object Detection 모델의 벤치마크 자료입니다.
