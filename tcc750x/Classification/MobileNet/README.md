@@ -75,16 +75,6 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
 
 - - -
 
-## 📥 Input Format
-
-- **Shape**: `(N x 3 x H x W)` — where N is batch size (typically 1), 3 channels (RGB), height and width ≥ 224.
-- **Normalization**:
-  - Scale image pixels to `[0.0, 1.0]`
-  - Apply mean: `[0.485, 0.456, 0.406]`
-  - Apply std: `[0.229, 0.224, 0.225]`
-
-- - -
-
 ## 📤 Output Format
 
 - The output is a 1D tensor of **1000 class scores** (ImageNet classes).
