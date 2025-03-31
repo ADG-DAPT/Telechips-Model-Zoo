@@ -1,15 +1,25 @@
-# Classification Benchmark
-Below is the benchmark data for Classification models running on the TCC750X.
-This table allows you to check the performance of each neural network when executed on the N-Dolphin (TCC750X) board.
-Additionally, clicking on a neural network name will allow you to download a version formatted for execution on the board.
+# Classification Benchmark on TCC750X
+Below is benchmark data for various Image Classification models running on the TCC750X (N-Dolphin) platform.
+This table allows you to compare the performance of each neural network when executed on the board.
+Additionally, clicking on a model name will allow you to download the version formatted for execution on the device.
 
-### Reference Information
-- Results of the accuracy is evaluated on ImageNet validation dataset(#50,000).
-- Evaluation: Results obtained using the tc-nn-toolkit.
-    - FP32 results were measured with the tc-nn-toolkit after converting to the `.enlight` format.
-- Inference Time: Measured using the N-Dolphin EVB with Zero padding input image.
-- Reference: Links to the original GitHub repository of the neural network model.
+- - -
 
+### 📊 How to Read the Table Below
+
+| Column                    | Description                                                                 |
+|--------------------------|-----------------------------------------------------------------------------|
+| **Model**                | Name of the neural network model (clickable for download, if available)     |
+| **Framework**            | Deep learning framework used (e.g., PyTorch, TFLite, ONNX)                  |
+| **Dataset**              | Evaluation dataset used (e.g., ImageNet validation set with 50,000 images)  |
+| **Input Size (WxHxC)**   | Model input resolution and channel configuration                            |
+| **Quantization Bit**     | Bit-depth used for quantization (e.g., INT8)                                |
+| **Binary Files Info.**   | Size of the compiled neural network binaries for TCC750X                    |
+| **Inference Time (ms)**  | Measured on the N-Dolphin EVB using zero-padded input images                |
+| **Accuracy**             | Classification top-1 accuracy on ImageNet validation dataset (50,000 images)                    |
+| **References**           | Link to the original GitHub repository of the model      
+
+- - -
 <!--
 아래는 TCC750X에서 실행되는 Classification 모델의 벤치마크 자료입니다.
 이 표를 통해 각 신경망이 N-Dolphin (TCC750X) 보드에서 실행될 때의 성능을 확인할 수 있습니다.
@@ -30,14 +40,14 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <th rowspan="2">DataSet</th>
             <th rowspan="2">Input Size (WxHxC)</th>
             <th rowspan="2">Quantization Bit</th>
-            <th colspan="2">Compiled NN Information</th>
-            <th rowspan="2">Inference Time(msec)</th>
+            <th colspan="2">Binary Files Info.</th>
+            <th rowspan="2">Inference Time(ms)</th>
             <th colspan="2">Accuracy</th>
             <th rowspan="2">References</th>
         </tr>
         <tr>
-            <th>Weight, Bias Binary Size(MB)</th>
-            <th>Command Binary Size(KB)</th>
+            <th>Weight & Bias Bin.(MB)</th>
+            <th>Command Bin.(KB)</th>
             <th>FP32</th>
             <th>INT8</th>
         </tr>
@@ -52,8 +62,8 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">4</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">44</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
             <td align="center">1.31</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">69.842</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">68.796</td> <!-- Evaluation Result: INT8 -->
+            <td align="center">0.6984</td> <!-- Evaluation Result: FP32 -->
+            <td align="center">0.6879</td> <!-- Evaluation Result: INT8 -->
             <td align="center"><a href="https://github.com/onnx/models/tree/main/validated/vision/classification/mobilenet">GitHub<a></td> <!-- References: Link -->
         </tr>
     </tbody>
