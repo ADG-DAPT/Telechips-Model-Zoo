@@ -4,10 +4,12 @@ This table allows you to check the performance of each neural network when execu
 Additionally, clicking on a neural network name will allow you to download a version formatted for execution on the board.
 
 ### Reference Information
+- Results of the mAP is evaluated on COCO val2017 dataset (#5,000) or VOC2007 test dataset (#4,952).
 - Evaluation: Results obtained using the tc-nn-toolkit.
-    - FP32 in the Evaluation Result: Measured after conversion to the .enlight format.
-- Inference Time: Measured using the N-Dolphin EVB.
+    - FP32 results were measured with the tc-nn-toolkit after converting to the `.enlight` format.
+- Inference Time: Measured using the N-Dolphin EVB with Zero padding input image.
 - Reference: Links to the original GitHub repository of the neural network model.
+
 
 <!--
 아래는 TCC750X에서 실행되는 Object Detection 모델의 벤치마크 자료입니다.

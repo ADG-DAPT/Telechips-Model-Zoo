@@ -30,12 +30,22 @@ Telechips offers three AI-enabled processors with integrated Neural Processing U
 ### TCC750x(N-Dolphin)
 8 TOPS – Designed for high-performance ADAS and vision-based applications, supporting multi-camera processing, driver monitoring (DMS), and advanced deep learning inference.
 
+### TCC807x(Dolphin5)
+TBD – Specifications will be announced soon.
+
+### TCA2x(A2X): 
+TBD – Specifications will be announced soon.
+
 This AI-enabled SoC offer real-time neural network inference capabilities with high efficiency and scalability for automotive applications.
 
 <!--
 텔레칩스는 **NPU (Neural Processing Unit, 신경망 처리 장치)**가 내장된 세 가지 AI 프로세서를 제공합니다:
 
 TCC750x: 8 TOPS – ADAS 및 비전 기반 애플리케이션을 위한 고성능 프로세서로, 멀티 카메라 처리, 운전자 모니터링(DMS), 고급 딥러닝 추론을 지원합니다.
+
+TCC807x: 8 TOPS – 인포테인먼트 및 스마트 콕핏 시스템에 최적화되어 있으며, AI 기반 멀티미디어 처리, 음성 인식, 사용자 경험 향상 기능을 지원합니다.
+
+TCA2x: TBD – 상세 사양은 추후 공개될 예정입니다.
 
 이 칩셋들은 실시간 AI 추론을 가능하게 하며, 차량용 애플리케이션에서의 고효율성과 확장성을 제공합니다.
 -->
@@ -251,7 +261,7 @@ and <evb_ip> with the IP address of your EVB board.
 yolov5m_quantized/
 ├── net.so        # Compiled model library
 ├── npu_cmd.bin       # Binary file of TCC750x NPU command code word
-├── quantized_network.bin # Binary file of Quantized weight and bias 
+└── quantized_network.bin # Binary file of Quantized weight and bias 
 </code> </pre>
 So you would run:
 <pre> <code>
