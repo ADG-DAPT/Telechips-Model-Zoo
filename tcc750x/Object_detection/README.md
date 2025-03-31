@@ -1,7 +1,26 @@
-# Object Detection Benchmark
+# Object Detection Benchmark on TCC750X
 Below is the benchmark data for Object Detection models running on the TCC750X.
 This table allows you to check the performance of each neural network when executed on the N-Dolphin (TCC750X) board.
 Additionally, clicking on a neural network name will allow you to download a version formatted for execution on the board.
+
+- - -
+
+### 📊 How to Read the Table Below
+| Column                       | Description                                                                 |
+|-----------------------------|-----------------------------------------------------------------------------|
+| **Model**                   | Name of the neural network model (clickable for download if available)     |
+| **Framework**               | Deep learning framework used (e.g., PyTorch, TFLite, ONNX)                 |
+| **Dataset**                 | Evaluation dataset (COCO val2017 or VOC2007 test set)                      |
+| **Input Size (WxHxC)**      | Model input resolution and channel configuration                           |
+| **Quantization Bit**        | Quantization level used (all models in INT8 format)                        |
+| **Compiled NN Information** | Size of the compiled neural network for TCC750X                            |
+| &nbsp;&nbsp;&nbsp;&nbsp;- Weight, Bias Binary Size (MB) | Binary size of model parameters                             |
+| &nbsp;&nbsp;&nbsp;&nbsp;- Command Binary Size (KB)      | Size of command structure for the model                     |
+| **Inference Time (msec)**   | Measured on the N-Dolphin EVB (lower is faster)                            |
+| **AP@[.50:.95]**            | Detection accuracy in mean average precision (COCO metric)                 |
+| **References**              | Link to the original model or GitHub repository                            |
+
+- - -
 
 ### Reference Information
 - Results of the mAP is evaluated on COCO val2017 dataset (#5,000) or VOC2007 test dataset (#4,952).
@@ -31,12 +50,12 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
         <tr>
             <th rowspan="2">Model</th>
             <th rowspan="2">Framework</th>
-            <th rowspan="2">DataSet</th>
+            <th rowspan="2">Dataset</th>
             <th rowspan="2">Input Size (WxHxC)</th>
-            <th rowspan="2">Quantization Bit</th>
-            <th colspan="2">Compiled NN Information</th>
-            <th rowspan="2">Inference Time(msec)</th>
-            <th colspan="2">AP@[.50:.95]</th>
+            <th rowspan="2">Quantize Bit</th>
+            <th colspan="2">Binary Files Info.</th>
+            <th rowspan="2">Inference Time(ms)</th>
+            <th colspan="2">mAP<sup>val</sup>@50-95</th>
             <th rowspan="2">References</th>
         </tr>
         <tr>
@@ -49,8 +68,8 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
     <tbody>
         <tr>
             <td align="center"><a href="MobileNet/lite-model_ssd_mobilenet_v1_100_320_fp32_nms_1/">mb1-ssd-lite</a></td> <!-- Model -->
-            <td align="center">TensorFlow Lite</td> <!-- Framework -->
-            <td align="center">COCO</td> <!-- Detections/DataSet -->
+            <td align="center">TFLite</td> <!-- Framework -->
+            <td align="center">VOC2007</td> <!-- Detections/DataSet -->
             <td align="center">320x320x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">8</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
@@ -63,7 +82,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
         <tr>
             <td align="center"><a href="MobileNet/mb2_ssd_lite/">mb2-ssd-lite</a></td> <!-- Model -->
             <td align="center">ONNX</td> <!-- Framework -->
-            <td align="center">COCO</td> <!-- Detections/DataSet -->
+            <td align="center">VOC2007</td> <!-- Detections/DataSet -->
             <td align="center">300x300x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">4</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
