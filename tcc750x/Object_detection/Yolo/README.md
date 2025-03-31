@@ -1,6 +1,6 @@
-# Object Detection Benchmark on TCC750X
+# YOLO Series Benchmark on TCC750X
 
-Below is benchmark data for various Object Detection models running on the **TCC750X (N-Dolphin)** platform.  
+Below is benchmark data for various YOLO models running on the **TCC750X (N-Dolphin)** platform.  
 This table allows you to compare the performance of each neural network when executed on the board.  
 Additionally, clicking on a model name will allow you to download the version formatted for execution on the device.
 
@@ -59,40 +59,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
     </thead>
     <tbody>
         <tr>
-<<<<<<< HEAD
-            <td align="center" colspan="2"><a href="MobileNet/lite-model_ssd_mobilenet_v1_100_320_fp32_nms_1/">mb1-ssd-lite</a></td> <!-- Model -->
-            <td align="center">TFLite</td> <!-- Framework -->
-=======
-            <td align="center" rowspan="2" class="model"><a href="MobileNet/">SSD-Lite</a></td> <!-- Model -->
-            <td align="center" class="variant"><a href="MobileNet/lite-model_ssd_mobilenet_v1_100_320_fp32_nms_1/">mb1</a></td>
-            <td align="center">TensorFlow Lite</td> <!-- Framework -->
->>>>>>> 064eb989a9cd260e4be12162ca133769cc6200d4
-            <td align="center">VOC</td> <!-- Detections/DataSet -->
-            <td align="center">320x320x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">INT8</td> <!-- Quantization Bit -->
-            <td align="center">8</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
-            <td align="center">44</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
-            <td align="center">2.54</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">TBD</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">TBD</td> <!-- Evaluation Result: INT8 -->
-            <td align="center"><a href="https://tfhub.dev/iree/lite-model/ssd_mobilenet_v1_100_320/fp32/nms/1">GitHub<a></td> <!-- References: Link -->
-        </tr>
-        <tr>
-            <td align="center" class="variant"><a href="MobileNet/mb2_ssd_lite/">mb2</a></td> <!-- Model -->
-            <td align="center">ONNX</td> <!-- Framework -->
-            <td align="center">VOC2007</td> <!-- Detections/DataSet -->
-            <td align="center">300x300x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">INT8</td> <!-- Quantization Bit -->
-            <td align="center">4</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
-            <td align="center">56</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
-            <td align="center">2.08</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">TBD</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">TBD</td> <!-- Evaluation Result: INT8 -->
-            <td align="center"><a href="https://github.com/openedges/pytorch-ssd">GitHub<a></td> <!-- References: Link -->
-        </tr>
-        <tr>
-            <td align="center" rowspan="1" class="model"><a href="Yolo/yolov3/">YOLOv3</a></td> <!-- Model -->
-            <td align="center" class="variant"><a href="Yolo/yolov3/yolov3_640">-</a></td>
+            <td align="center" colspan="2"><a href="Yolo/yolov3/">YOLOv3</a></td> <!-- Model -->
             <td align="center">Pytorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
@@ -105,8 +72,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center"><a href="https://github.com/ultralytics/yolov3">GitHub<a></td> <!-- References: Link -->
         </tr>
         <tr>
-            <td align="center" rowspan="1" class="model"><a href="Yolo/yolov4/">YOLOv4</a></td> <!-- Model -->
-            <td align="center" class="variant"><a href="Yolo/yolov4/yolov4_608">-</a></td>
+            <td align="center" colspan="2"><a href="Yolo/yolov4/">YOLOv4</a></td> <!-- Model -->
             <td align="center">Darknet</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">608x608x3</td> <!-- Input Size (WxHxC) -->
@@ -119,7 +85,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center"><a href="https://github.com/AlexeyAB/darknet/blob/master/cfg/yolov4.cfg">Github<a></td> <!-- References: Link -->
         </tr>
         <tr>
-            <td align="center" rowspan="5" class="model"><a href="Yolo/yolov5/">YOLOv5</a></td> <!-- Model -->
+            <td align="center" rowspan="5" class="model">YOLOv5</td> <!-- Model -->
             <td align="center" class="variant"><a href="Yolo/yolov5/yolov5n/">n</a></td>
             <td align="center">Pytorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
@@ -181,7 +147,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">0.437</td> <!-- Evaluation Result: INT8 -->
         </tr>
         <tr>
-            <td align="center" rowspan="4" class="model"><a href="Yolo/yolov6/">YOLOv6</a></td> <!-- Model -->
+            <td align="center" rowspan="4" class="model">YOLOv6</td> <!-- Model -->
             <td align="center" class="variant"><a href="Yolo/yolov6/yolov6n/">n</a></td> <!-- Models: Variant -->
             <td align="center">Pytorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
@@ -231,8 +197,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">0.489</td> <!-- Evaluation Result: INT8 -->
         </tr>
         <tr>
-            <td align="center" rowspan="1" class="model"><a href="Yolo/yolov7/">YOLOv7</a></td> <!-- Model -->
-            <td align="center" class="variant"><a href="Yolo/yolov7/yolov7_640">-</a></td>
+            <td align="center" colspan="2"><a href="Yolo/yolov7/">YOLOv7</a></td> <!-- Model -->
             <td align="center">Pytorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
@@ -245,7 +210,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center"><a href="https://github.com/WongKinYiu/yolov7">GitHub<a></td> <!-- References: Link -->
         </tr>
         <tr>
-            <td align="center" rowspan="5" class="model"><a href="Yolo/yolov8/">YOLOv8</a></td> <!-- Model -->
+            <td align="center" rowspan="5" class="model">YOLOv8</td> <!-- Model -->
             <td align="center" class="variant"><a href="Yolo/yolov8/yolov8n/">n</a></td>
             <td align="center">Pytorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
@@ -307,7 +272,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">0.540</td> <!-- Evaluation Result: INT8 -->
         </tr>
         <tr>
-            <td align="center" rowspan="6" class="model"><a href="Yolo/yolox/">YOLOX</a></td> <!-- Model -->
+            <td align="center" rowspan="6" class="model">YOLOX</td> <!-- Model -->
             <td align="center" class="variant"><a href="Yolo/yoloX/yolox_s/">s</a></td> <!-- Model -->
             <td align="center">Pytorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
