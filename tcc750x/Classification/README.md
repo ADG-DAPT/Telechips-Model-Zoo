@@ -55,7 +55,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
     <tbody>
         <tr>
             <td align="center"><a href="MobileNet/mobileNetv2_10/">MobileNetv2-10</a></td> <!-- Model -->
-            <td align="center">ONNX</td> <!-- Framework -->
+            <td align="center">MXNet</td> <!-- Framework -->
             <td align="center">ImageNet</td> <!-- Detections/DataSet -->
             <td align="center">224x224x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
