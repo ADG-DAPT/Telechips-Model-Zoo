@@ -4,7 +4,6 @@ This table allows you to check the performance of each neural network when execu
 Additionally, clicking on a neural network name will allow you to download a version formatted for execution on the board.
 
 ### Reference Information
-- Detections/Dataset: Click to download the dataset.
 - Evaluation: Results obtained using the tc-nn-toolkit.
     - FP32 in the Evaluation Result: Measured after conversion to the .enlight format.
 - Inference Time: Measured using the N-Dolphin EVB.

@@ -73,13 +73,13 @@ Each model links to its dedicated page with performance metrics and deployment i
         </tr>
         <tr>
             <td align="center" rowspan="26"><a href="tcc750x/Object_detection/README.md">Object detection</a></td> <!-- Category -->
-            <td align="center" colspan="2">mb1_ssd_lite</td> <!-- Model -->
+            <td align="center" colspan="2">Mb1_Ssd_Lite</td> <!-- Model -->
             <td align="center">320x320x3</td> <!-- Input Size(WxHxC) -->
             <td align="center">2.54</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.212</td> <!-- COCO AP@[.50:.95] -->
         </tr>
         <tr>
-            <td align="center" colspan="2">mb2_ssd_lite</td> <!-- Model -->
+            <td align="center" colspan="2">Mb2_Ssd_Lite</td> <!-- Model -->
             <td align="center">300x300x3</td> <!-- Input Size(WxHxC) -->
             <td align="center">2.08</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.006</td> <!-- COCO AP@[.50:.95] -->
