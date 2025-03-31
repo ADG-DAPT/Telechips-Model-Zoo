@@ -30,12 +30,6 @@ Telechips offers three AI-enabled processors with integrated Neural Processing U
 ### TCC750x(N-Dolphin)
 8 TOPS – Designed for high-performance ADAS and vision-based applications, supporting multi-camera processing, driver monitoring (DMS), and advanced deep learning inference.
 
-### TCC807x(Dolphin5)
-TBD – Specifications will be announced soon.
-
-### TCA2x(A2X): 
-TBD – Specifications will be announced soon.
-
 This AI-enabled SoC offer real-time neural network inference capabilities with high efficiency and scalability for automotive applications.
 
 <!--
