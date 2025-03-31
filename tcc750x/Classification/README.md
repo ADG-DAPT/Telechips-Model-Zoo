@@ -40,14 +40,14 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <th rowspan="2">DataSet</th>
             <th rowspan="2">Input Size (WxHxC)</th>
             <th rowspan="2">Quantization Bit</th>
-            <th colspan="2">Compiled NN Information</th>
-            <th rowspan="2">Inference Time(msec)</th>
+            <th colspan="2">Binary Files Info.</th>
+            <th rowspan="2">Inference Time(ms)</th>
             <th colspan="2">Accuracy</th>
             <th rowspan="2">References</th>
         </tr>
         <tr>
-            <th>Weight, Bias Binary Size(MB)</th>
-            <th>Command Binary Size(KB)</th>
+            <th>Weight & Bias Bin.(MB)</th>
+            <th>Command Bin.(KB)</th>
             <th>FP32</th>
             <th>INT8</th>
         </tr>
