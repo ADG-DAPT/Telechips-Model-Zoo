@@ -1,14 +1,35 @@
-# Object Detection Benchmark
-Below is the benchmark data for Object Detection models running on the TCC750X.
-This table allows you to check the performance of each neural network when executed on the N-Dolphin (TCC750X) board.
-Additionally, clicking on a neural network name will allow you to download a version formatted for execution on the board.
+# Object Detection Benchmark on TCC750X
 
-### Reference Information
-- Results of the mAP is evaluated on COCO val2017 dataset (#5,000) or VOC2007 test dataset (#4,952).
-- Evaluation: Results obtained using the tc-nn-toolkit.
-    - FP32 results were measured with the tc-nn-toolkit after converting to the `.enlight` format.
-- Inference Time: Measured using the N-Dolphin EVB with Zero padding input image.
-- Reference: Links to the original GitHub repository of the neural network model.
+Below is benchmark data for various Object Detection models running on the **TCC750X (N-Dolphin)** platform.  
+This table allows you to compare the performance of each neural network when executed on the board.  
+Additionally, clicking on a model name will allow you to download the version formatted for execution on the device.
+
+---
+
+### 📊 How to Read the Table Below
+
+| Column                    | Description                                                                 |
+|--------------------------|-----------------------------------------------------------------------------|
+| **Model**                | Name of the neural network model (clickable for download, if available)     |
+| **Framework**            | Deep learning framework used (e.g., PyTorch, TFLite, ONNX)                  |
+| **Dataset**              | Evaluation dataset (COCO val2017 or VOC2007 test set)                       |
+| **Input Size (WxHxC)**   | Model input resolution and channel configuration                            |
+| **Quantization Bit**     | Bit-depth used for quantization (e.g., INT8)                                |
+| **Binary Files Info.**   | Size of the compiled neural network binaries for TCC750X                    |
+| **Inference Time (ms)**  | Inference time measured on the N-Dolphin EVB                                |
+| **AP@50-95**             | Detection accuracy (mean Average Precision, COCO metric)                    |
+| **References**           | Link to the original GitHub repository of the model                         |
+
+---
+
+### 📘 Reference Information
+
+- **mAP (mean Average Precision)** is evaluated on the **COCO val2017 dataset** (5,000 images) or the **VOC2007 test dataset** (4,952 images).
+- **Evaluation**: All results are obtained using the **tc-nn-toolkit**.
+  - **FP32 results** were measured using the tc-nn-toolkit after converting the model to the `.enlight` format.
+- **Inference Time**: Measured on the **N-Dolphin EVB** using zero-padded input images.
+- **References**: Each model includes a link to its original GitHub repository.
+
 
 
 <!--
@@ -31,17 +52,17 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
         <tr>
             <th align="center" rowspan="2" colspan="2">Model</th>
             <th rowspan="2">Framework</th>
-            <th rowspan="2">DataSet</th>
+            <th rowspan="2">Dataset</th>
             <th rowspan="2">Input Size (WxHxC)</th>
             <th rowspan="2">Quantization Bit</th>
-            <th colspan="2">Compiled NN Information</th>
-            <th rowspan="2">Inference Time(msec)</th>
-            <th colspan="2">AP@[.50:.95]</th>
+            <th colspan="2">Binary Files Info.</th>
+            <th rowspan="2">Inference Time(ms)</th>
+            <th colspan="2">mAP@50-95</th>
             <th rowspan="2">References</th>
         </tr>
         <tr>
-            <th>Weight, Bias Binary Size(MB)</th>
-            <th>Command Binary Size(KB)</th>
+            <th>Weight & Bias Bin.(MB)</th>
+            <th>Command Bin.(KB)</th>
             <th>FP32</th>
             <th>INT8</th>
         </tr>
@@ -63,7 +84,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
         <tr>
             <td align="center" colspan="2"><a href="MobileNet/mb2_ssd_lite/">mb2-ssd-lite</a></td> <!-- Model -->
             <td align="center">ONNX</td> <!-- Framework -->
-            <td align="center">VOC</td> <!-- Detections/DataSet -->
+            <td align="center">VOC2007</td> <!-- Detections/DataSet -->
             <td align="center">300x300x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">4</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
