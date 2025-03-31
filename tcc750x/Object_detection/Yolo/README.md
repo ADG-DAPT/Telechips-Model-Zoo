@@ -35,7 +35,7 @@ Inference Time: N-Dolphin EVB에서 실행한 결과입니다.
 Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
 -->
 
-![YOLO Model Performance](../../docs/image/od_performance.png)
+![YOLO Model Performance](../../../docs/image/od_performance.png)
 
 <table border="1" cellspacing="0" cellpadding="5">
     <thead>
