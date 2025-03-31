@@ -77,8 +77,8 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">8</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">44</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
             <td align="center">2.54</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">0.219</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">0.212</td> <!-- Evaluation Result: INT8 -->
+            <td align="center">TBD</td> <!-- Evaluation Result: FP32 -->
+            <td align="center">TBD</td> <!-- Evaluation Result: INT8 -->
             <td align="center"><a href="https://tfhub.dev/iree/lite-model/ssd_mobilenet_v1_100_320/fp32/nms/1">GitHub<a></td> <!-- References: Link -->
         </tr>
         <tr>
@@ -90,8 +90,8 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">4</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">56</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
             <td align="center">2.08</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">0.006</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">0.006</td> <!-- Evaluation Result: INT8 -->
+            <td align="center">TBD</td> <!-- Evaluation Result: FP32 -->
+            <td align="center">TBD</td> <!-- Evaluation Result: INT8 -->
             <td align="center"><a href="https://github.com/openedges/pytorch-ssd">GitHub<a></td> <!-- References: Link -->
         </tr>
         <tr>
@@ -118,7 +118,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">60.14</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.501</td> <!-- Evaluation Result: FP32 -->
             <td align="center">0.402</td> <!-- Evaluation Result: INT8 -->
-            <td align="center"><a href="https://github.com/AlexeyAB/darknet/blob/master/cfg/yolov4.cfg">.cfg<a> <a href="https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.weights">.weights<a></td> <!-- References: Link -->
+            <td align="center"><a href="https://github.com/AlexeyAB/darknet/blob/master/cfg/yolov4.cfg">Github<a></td> <!-- References: Link -->
         </tr>
         <tr>
             <td align="center" rowspan="5" class="model">YOLOv5</td> <!-- Model -->
