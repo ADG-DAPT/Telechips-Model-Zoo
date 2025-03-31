@@ -379,18 +379,3 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
 </table>
 
 ---
-## 📤 Output Format
-
-- The output of YOLO models is a set of **bounding boxes** with associated class predictions and confidence scores.
-- Each detection includes the following information:
-  - **(x, y, w, h)**: Bounding box center coordinates, width, and height (normalized or absolute, depending on the model).
-  - **Objectness score**: Confidence that an object exists in the box.
-  - **Class probabilities**: Confidence scores for each class.
-  - **Final score**: Typically computed as `objectness × class probability`.
-
-- After post-processing (e.g., **Non-Maximum Suppression**), the model returns a list of **top-k detected objects** in the image, each including:
-  - Bounding box coordinates
-  - Class label
-  - Confidence score
-
-- The number and format of output tensors may vary slightly depending on the YOLO version (e.g., v5, v6, v8, YOLOX), but the core structure remains similar.
