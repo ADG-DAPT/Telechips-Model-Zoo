@@ -1,8 +1,8 @@
 # Object Detection Benchmark on TCC750x
 
-The following is benchmark data for various Object Detection models running on the **TCC750x (N-Dolphin)** platform.  
-This table allows you to compare the performance of each neural network when running on the board.  
-You can also click on the model name to download the version formatted for running on the device.
+The following is benchmark data for various Object Detection models running on the **TCC750x** platform.  
+This table allows you to compare the performance of each neural network when running on the TCC750x EVB.  
+You can also click on the model name to download the version formatted for running on the TCC750x EVB.
 
 ---
 
@@ -18,24 +18,13 @@ You can also click on the model name to download the version formatted for runni
 | **Input Size (WxHxC)**   | Model input resolution and channel configuration                            |
 | **Quantization Bit**     | Bit-depth used for quantization (e.g., INT8)                                |
 | **Binary Files Info.**   | Size of the compiled neural network binaries for TCC750X                    |
-| **Inference Time (ms)**  | Inference time measured on the N-Dolphin EVB using zero-padded input images.                               |
+| **Inference Time (ms)**  | Inference time measured on the TCC750x EVB using zero-padded input images.                               |
 | **mAP**             | mAP (mean Average Precision) is evaluated on the **COCO val2017 dataset** (5,000 images) or the **VOC2007 test dataset** (4,952 images).                    |
 | **References**           | Link to the original GitHub repository of the model                         |
 
 ---
 
-<!--
-아래는 TCC750X에서 실행되는 Object Detection 모델의 벤치마크 자료입니다.
-이 표를 통해 각 신경망이 N-Dolphin (TCC750X) 보드에서 실행될 때의 성능을 확인할 수 있습니다.
-또한, 신경망 이름을 클릭하면 해당 보드에서 실행할 수 있는 형식의 결과물을 다운로드할 수 있습니다.
-
-참조사항
-Detections/Dataset: COCO
-Evaluation: tc-nn-toolkit을 이용하여 측정한 결과입니다.
-- Evaluation Result의 FP32: .enlight 확장자로 변환된 상태에서 측정된 값입니다.
-Inference Time: N-Dolphin EVB에서 실행한 결과입니다.
-Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
--->
+![OD Model Performance](../../docs/image/od_performance.png)
 
 <table border="1" cellspacing="0" cellpadding="5">
     <thead>
@@ -47,7 +36,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <th rowspan="2">Quantization Bit</th>
             <th colspan="2">Binary Files Info.</th>
             <th rowspan="2">Inference Time(ms)</th>
-            <th colspan="2">mAP@50-95</th>
+            <th colspan="2">mAP@50</th>
             <th rowspan="2">References</th>
         </tr>
         <tr>
@@ -61,15 +50,15 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
         <tr>
             <td align="center" rowspan="2" class="model"><a href="MobileNet/">SSD-Lite</a></td> <!-- Model -->
             <td align="center" class="variant"><a href="MobileNet/lite-model_ssd_mobilenet_v1_100_320_fp32_nms_1/">mb1</a></td>
-            <td align="center">TensorFlow Lite</td> <!-- Framework -->
-            <td align="center">VOC</td> <!-- Detections/DataSet -->
+            <td align="center">TFLite</td> <!-- Framework -->
+            <td align="center">VOC2007</td> <!-- Detections/DataSet -->
             <td align="center">320x320x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">8</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">44</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
             <td align="center">2.54</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">0.082</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">0.081</td> <!-- Evaluation Result: INT8 -->
+            <td align="center">0.376</td> <!-- Evaluation Result: FP32 -->
+            <td align="center">0.367</td> <!-- Evaluation Result: INT8 -->
             <td align="center"><a href="https://tfhub.dev/iree/lite-model/ssd_mobilenet_v1_100_320/fp32/nms/1">GitHub<a></td> <!-- References: Link -->
         </tr>
         <tr>
