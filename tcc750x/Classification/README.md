@@ -43,7 +43,7 @@ You can also click the model name to download the version formatted for executio
     </thead>
     <tbody>
         <tr>
-            <td align="center"><a href="MobileNet/mobileNetv2_10/">MobileNetv2-10</a></td> <!-- Model -->
+            <td align="center"><a href="MobileNet/mobileNetv2_10/">mobileNetv2-10</a></td> <!-- Model -->
             <td align="center">MXNet</td> <!-- Framework -->
             <td align="center">ImageNet</td> <!-- Detections/DataSet -->
             <td align="center">224x224x3</td> <!-- Input Size (WxHxC) -->
