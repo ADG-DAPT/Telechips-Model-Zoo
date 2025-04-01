@@ -25,7 +25,7 @@ Copy the entire model folder to your EVB. Each folder contains the necessary out
 <pre> <code>
 scp -r [network_output_folder] root@192.168.0.100:/path/to/target/
 </code> </pre>
-Replace [network_output_folder] with the actual folder (For example, yolov5m/).  
+Replace [network_output_folder] with the actual folder (for example, yolov5m/).  
 Replace <evb_ip> with the IP address of your EVB board.
 
 ### ***Example: TCC750x - YOLOv5m Folder Structure***
