@@ -4,7 +4,7 @@ The following is benchmark data for various **SSD-Lite (Single Shot MultiBox Det
 SSD-Lite is a lightweight and efficient object detection model designed for mobile and embedded devices, offering a good trade-off between speed and accuracy.  
 It is a variant of the original SSD model with depthwise separable convolutions for reduced computation.
 
-This benchmark includes popular SSD-Lite models (e.g., MobileNet-SSD, MobileNetV2-SSD) and provides insight into their performance when quantized and deployed on embedded hardware.
+This benchmark includes popular SSD-Lite models (e.g., MobileNet-SSD, MobileNetV2-SSD) and provides insight into their performance when quantized and deployed on TCC750x EVB.
 
 You can also clisk on the model name in the table to download the binary that can run on the TCC750x EVB.
 
