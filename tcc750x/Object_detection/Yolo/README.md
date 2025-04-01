@@ -20,9 +20,9 @@ You can also click on the model name in the table allows you to download the bin
 | **Dataset**              | Evaluation dataset (COCO val2017 or VOC2007 test set)                       |
 | **Input Size (WxHxC)**   | Model input resolution and channel configuration                            |
 | **Quantization Bit**     | Bit-depth used for quantization (e.g., INT8)                                |
-| **Binary Files Info.**   | Size of the compiled neural network binaries for TCC750X                    |
-| **Inference Time (ms)**  | Inference time measured on the TCC750x EVB using zero-padded input images.                               |
-| **mAP**             | mAP (mean Average Precision) is evaluated on the **COCO val2017 dataset** (5,000 images) or the **VOC2007 test dataset** (4,952 images).                    |
+| **Binary Files Info.**   | Size of the compiled neural network binaries for TCC750x                    |
+| **Inference Time (ms)**  | Inference time measured on the N-Dolphin EVB by using zero-padded input images                             |
+| **mAP**             | Mean Average Precision (mAP) is evaluated on the **COCO val2017 dataset** (5,000 images)                    |
 | **References**           | Link to the original GitHub repository of the model                         |
 
 ---

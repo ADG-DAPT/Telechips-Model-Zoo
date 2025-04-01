@@ -6,7 +6,7 @@ You can also click on the model name to download the version formatted for runni
 
 ---
 
-![YOLO Model Performance](../../docs/image/od_performance.png)
+![OD Model Performance](../../docs/image/od_performance.png)
 
 ### 📊 Table Overview
 

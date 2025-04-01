@@ -8,10 +8,9 @@ This benchmark includes popular SSD-Lite models (e.g., MobileNet-SSD, MobileNetV
 
 You can also clisk on the model name in the table to download the binary that can run on the TCC750x EVB.
 
-
 ---
 
-<!-- ![YOLO Model Performance](../../docs/image/od_performance.png) -->
+![SSDLite Model Performance](../../../docs/image/SSDLite_performance.png)
 
 ### 📊 Table Overview
 
@@ -19,12 +18,16 @@ You can also clisk on the model name in the table to download the binary that ca
 |--------------------------|-----------------------------------------------------------------------------|
 | **Model**                | Name of the neural network model     |
 | **Framework**            | Deep learning framework used (e.g., PyTorch, TFLite, ONNX)                  |
-| **Dataset**              | Evaluation dataset (VOC2007 test set)                       |
+| **Dataset**              | Evaluation dataset (COCO val2017 or VOC2007 test set)                       |
 | **Input Size (WxHxC)**   | Model input resolution and channel configuration                            |
 | **Quantization Bit**     | Bit-depth used for quantization (e.g., INT8)                                |
 | **Binary Files Info.**   | Size of the compiled neural network binaries for TCC750x                    |
 | **Inference Time (ms)**  | Inference time measured on the TCC750x EVB using zero-padded input images.                               |
+<<<<<<< HEAD
 | **mAP**             | mAP (mean Average Precision) is evaluated on the **VOC2007 test dataset** (4,952 images).                    |
+=======
+| **mAP**             | mAP (mean Average Precision) is evaluated on the **COCO val2017** (5,000 images) or the **VOC2007 test dataset** (4,952 images).                    |
+>>>>>>> 29b0cff407b90df1126d08877290cbf29ef36ba5
 | **References**           | Link to the original GitHub repository of the model                         |
 
 ---
@@ -40,7 +43,11 @@ You can also clisk on the model name in the table to download the binary that ca
             <th colspan="2">Binary Files Info.</th>
             <th rowspan="2">Inference Time(ms)</th>
             <th colspan="2">mAP@50-95</th>
+<<<<<<< HEAD
             <th colspan="2">mAP@50</th>
+=======
+            <th th align="center" colspan="2">mAP@50</th>
+>>>>>>> 29b0cff407b90df1126d08877290cbf29ef36ba5
             <th rowspan="2">References</th>
         </tr>
         <tr>
@@ -56,7 +63,7 @@ You can also clisk on the model name in the table to download the binary that ca
         <tr>
             <td align="center" class="variant"><a href="MobileNet/lite-model_ssd_mobilenet_v1_100_320_fp32_nms_1/">mobilenetv1-SSDLite</a></td>
             <td align="center">TFLite</td> <!-- Framework -->
-            <td align="center">VOC2007</td> <!-- Detections/DataSet -->
+            <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">320x320x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">8</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
@@ -64,8 +71,13 @@ You can also clisk on the model name in the table to download the binary that ca
             <td align="center">2.54</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.219</td> <!-- Evaluation Result: FP32 -->
             <td align="center">0.212</td> <!-- Evaluation Result: INT8 -->
+<<<<<<< HEAD
             <td align="center">0.376</td> <!-- Evaluation Result: FP32 -->
             <td align="center">0.367</td> <!-- Evaluation Result: INT8 -->
+=======
+            <td align="center">0.376</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
+            <td align="center">0.367</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
+>>>>>>> 29b0cff407b90df1126d08877290cbf29ef36ba5
             <td align="center"><a href="https://tfhub.dev/iree/lite-model/ssd_mobilenet_v1_100_320/fp32/nms/1">GitHub<a></td> <!-- References: Link -->
         </tr>
         <tr>
@@ -79,8 +91,13 @@ You can also clisk on the model name in the table to download the binary that ca
             <td align="center">2.08</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.661</td> <!-- Evaluation Result: FP32 -->
             <td align="center">0.651</td> <!-- Evaluation Result: INT8 -->
+<<<<<<< HEAD
             <td align="center">-</td> <!-- Evaluation Result: FP32 -->
             <td align="center">-</td> <!-- Evaluation Result: INT8 -->
+=======
+            <td align="center">TODO</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
+            <td align="center">TODO</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
+>>>>>>> 29b0cff407b90df1126d08877290cbf29ef36ba5
             <td align="center"><a href="https://github.com/openedges/pytorch-ssd">GitHub<a></td> <!-- References: Link -->
         </tr>
     </tbody>
