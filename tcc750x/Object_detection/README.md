@@ -23,9 +23,6 @@ You can also click on the model name to download the version formatted for runni
 | **References**           | Link to the original GitHub repository of the model                         |
 
 ---
-
-![OD Model Performance](../../docs/image/od_performance.png)
-
 <table border="1" cellspacing="0" cellpadding="5">
     <thead>
         <tr>
