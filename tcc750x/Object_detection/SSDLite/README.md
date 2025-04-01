@@ -18,7 +18,7 @@ You can also clisk on the model name in the table to download the binary that ca
 |--------------------------|-----------------------------------------------------------------------------|
 | **Model**                | Name of the neural network model     |
 | **Framework**            | Deep learning framework used (e.g., PyTorch, TFLite, ONNX)                  |
-| **Dataset**              | Evaluation dataset (COCO val2017 or VOC2007 test set)                       |
+| **Dataset**              | Evaluation dataset                                                           |
 | **Input Size (WxHxC)**   | Model input resolution and channel configuration                            |
 | **Quantization Bit**     | Bit-depth used for quantization (e.g., INT8)                                |
 | **Binary Files Info.**   | Size of the compiled neural network binaries for TCC750x                    |
