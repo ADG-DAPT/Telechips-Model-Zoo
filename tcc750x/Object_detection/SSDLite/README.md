@@ -52,11 +52,14 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <th colspan="2">Binary Files Info.</th>
             <th rowspan="2">Inference Time(ms)</th>
             <th colspan="2">mAP@50-95</th>
+            <th th align="center" colspan="2">mAP@50</th>
             <th rowspan="2">References</th>
         </tr>
         <tr>
             <th>Weight & Bias Bin.(MB)</th>
             <th>Command Bin.(KB)</th>
+            <th>FP32</th>
+            <th>INT8</th>
             <th>FP32</th>
             <th>INT8</th>
         </tr>
@@ -71,8 +74,10 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">8</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">44</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
             <td align="center">2.54</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">0.082</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">0.081</td> <!-- Evaluation Result: INT8 -->
+            <td align="center">0.219</td> <!-- Evaluation Result: FP32 -->
+            <td align="center">0.212</td> <!-- Evaluation Result: INT8 -->
+            <td align="center">0.376</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
+            <td align="center">0.367</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
             <td align="center"><a href="https://tfhub.dev/iree/lite-model/ssd_mobilenet_v1_100_320/fp32/nms/1">GitHub<a></td> <!-- References: Link -->
         </tr>
         <tr>
@@ -86,6 +91,8 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">2.08</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.661</td> <!-- Evaluation Result: FP32 -->
             <td align="center">0.651</td> <!-- Evaluation Result: INT8 -->
+            <td align="center">TODO</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
+            <td align="center">TODO</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
             <td align="center"><a href="https://github.com/openedges/pytorch-ssd">GitHub<a></td> <!-- References: Link -->
         </tr>
     </tbody>
