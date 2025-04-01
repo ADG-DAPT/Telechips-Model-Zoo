@@ -9,7 +9,7 @@ Click each model name in the table to download the binary ready for deployment o
 
 ---
 
-### 📊 How to Read the Table Below
+### 📊 Table Overview
 
 | Column                    | Description                                                                 |
 |--------------------------|-----------------------------------------------------------------------------|
