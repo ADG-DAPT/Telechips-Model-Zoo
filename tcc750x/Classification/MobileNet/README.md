@@ -66,8 +66,6 @@ You can also click on the model name in the table to download the binary ready f
 
 ## 📤 Output Format
 
-- The output is a 1D tensor of **1,000 class scores** (ImageNet classes).
-- Apply **softmax** to obtain class probabilities.
-- Return the top-k predicted class indices and confidence scores.
+- The model returns the index of the top-1 class with the highest confidence score among the 1,000 ImageNet classes.
 
 - - -
