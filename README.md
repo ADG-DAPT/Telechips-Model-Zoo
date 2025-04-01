@@ -4,7 +4,7 @@
     <img src="./docs/image/telechips_ml_zoo_image.png" alt="Telechips ML Zoo">
 </a>
 
-Welcome to the Telechips Model Zoo!
+Welcome to the Telechips Model Zoo!!
 
 This repository provides a collection of neural network models optimized for Telechips AI SoCs (e.g., TCC750x). It includes a variety of models for tasks such as classification and object detection, provided in a format ready to run on evaluation boards. Benchmark results demonstrate the performance and efficiency of Telechips hardware.
 
