@@ -10,7 +10,7 @@ You can also clisk on the model name in the table to download the binary that ca
 
 ---
 
-![YOLO Model Performance](../../docs/image/SSDLite_performance.png)
+![SSDLite Model Performance](../../../docs/image/SSDLite_performance.png)
 
 ### 📊 Table Overview
 
