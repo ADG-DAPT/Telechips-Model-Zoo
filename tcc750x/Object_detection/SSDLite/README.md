@@ -45,7 +45,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
 <table border="1" cellspacing="0" cellpadding="5">
     <thead>
         <tr>
-            <th align="center" rowspan="2" colspan="2">Model</th>
+            <th align="center" rowspan="2" colspan="1">Model</th>
             <th rowspan="2">Framework</th>
             <th rowspan="2">Dataset</th>
             <th rowspan="2">Input Size (WxHxC)</th>
@@ -64,9 +64,8 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
     </thead>
     <tbody>
         <tr>
-            <td align="center" rowspan="2" class="model"><a href="MobileNet/">SSDLite</a></td> <!-- Model -->
-            <td align="center" class="variant"><a href="MobileNet/lite-model_ssd_mobilenet_v1_100_320_fp32_nms_1/">mb1</a></td>
-            <td align="center">TensorFlow Lite</td> <!-- Framework -->
+            <td align="center" class="variant"><a href="MobileNet/lite-model_ssd_mobilenet_v1_100_320_fp32_nms_1/">mobilenetv1-SSDLite</a></td>
+            <td align="center">TFLite</td> <!-- Framework -->
             <td align="center">VOC</td> <!-- Detections/DataSet -->
             <td align="center">320x320x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -78,7 +77,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center"><a href="https://tfhub.dev/iree/lite-model/ssd_mobilenet_v1_100_320/fp32/nms/1">GitHub<a></td> <!-- References: Link -->
         </tr>
         <tr>
-            <td align="center" class="variant"><a href="MobileNet/mb2_ssd_lite/">mb2</a></td> <!-- Model -->
+            <td align="center" class="variant"><a href="MobileNet/mb2_ssd_lite/">mobilenetv2-SSDLite</a></td> <!-- Model -->
             <td align="center">ONNX</td> <!-- Framework -->
             <td align="center">VOC2007</td> <!-- Detections/DataSet -->
             <td align="center">300x300x3</td> <!-- Input Size (WxHxC) -->
