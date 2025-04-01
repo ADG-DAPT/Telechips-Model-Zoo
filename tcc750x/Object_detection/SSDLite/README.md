@@ -76,10 +76,10 @@ You can also clisk on the model name in the table to download the binary that ca
             <td align="center">4</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">56</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
             <td align="center">2.08</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">0.661</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">0.651</td> <!-- Evaluation Result: INT8 -->
-            <td align="center">TODO</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
-            <td align="center">TODO</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
+            <td align="center">-</td> <!-- Evaluation Result: FP32 -->
+            <td align="center">-</td> <!-- Evaluation Result: INT8 -->
+            <td align="center">0.661</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
+            <td align="center">0.651</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
             <td align="center"><a href="https://github.com/openedges/pytorch-ssd">GitHub<a></td> <!-- References: Link -->
         </tr>
     </tbody>
