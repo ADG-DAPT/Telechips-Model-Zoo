@@ -69,20 +69,20 @@ The name of each model links to its dedicated page with performance metrics and 
     <tbody>
         <tr>
             <td align="center" rowspan="1"><a href="tcc750x/Classification/README.md">Classification</a></td> <!-- Category -->
-            <td align="center" colspan="2">MobileNetv2-10</td> <!-- Model -->
+            <td align="center" colspan="2">mobileNetv2-10</td> <!-- Model -->
             <td align="center">224x224x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">1.31</td> <!-- Inference Time (msec): EVB -->
             <td align="center">0.6879</td> <!-- Accuracy -->
         </tr>
         <tr>
             <td align="center" rowspan="26"><a href="tcc750x/Object_detection/README.md">Object detection</a></td> <!-- Category -->
-            <td align="center" colspan="2">Mb1_SSD_Lite</td> <!-- Model -->
+            <td align="center" colspan="2">mb1_SSD_Lite</td> <!-- Model -->
             <td align="center">320x320x3</td> <!-- Input Size(WxHxC) -->
             <td align="center">2.54</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.367</td> <!-- COCO AP@[.50:.95] -->
         </tr>
         <tr>
-            <td align="center" colspan="2">Mb2_SSD_Lite</td> <!-- Model -->
+            <td align="center" colspan="2">mb2_SSD_Lite</td> <!-- Model -->
             <td align="center">300x300x3</td> <!-- Input Size(WxHxC) -->
             <td align="center">2.08</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.651</td> <!-- Evaluation Result: INT8 -->
