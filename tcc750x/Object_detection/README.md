@@ -14,7 +14,7 @@ You can also click on the model name to download the version formatted for runni
 |--------------------------|-----------------------------------------------------------------------------|
 | **Model**                | Name of the neural network model     |
 | **Framework**            | Deep learning framework used (e.g., PyTorch, TFLite, ONNX)                  |
-| **Dataset**              | Evaluation dataset (COCO val2017 or VOC2007 test set)                       |
+| **Dataset**              | Evaluation dataset                                                           |
 | **Input Size (WxHxC)**   | Model input resolution and channel configuration                            |
 | **Quantization Bit**     | Bit-depth used for quantization (e.g., INT8)                                |
 | **Binary Files Info.**   | Size of the compiled neural network binaries for TCC750X                    |
