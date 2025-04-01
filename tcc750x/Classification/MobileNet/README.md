@@ -47,7 +47,7 @@ You can also click on the model name in the table to download the binary ready f
     </thead>
     <tbody>
         <tr>
-            <td align="center"><a href="mobileNetv2_10/">MobileNetv2-10</a></td> <!-- Model -->
+            <td align="center">MobileNetv2-10</td> <!-- Model -->
             <td align="center">MXNet</td> <!-- Framework -->
             <td align="center">ImageNet</td> <!-- Detections/DataSet -->
             <td align="center">224x224x3</td> <!-- Input Size (WxHxC) -->
