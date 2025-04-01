@@ -1,12 +1,10 @@
 # Object Detection Benchmark on TCC750X
 
-The following is benchmark data for various Object Detection models running on the **TCC750X (N-Dolphin)** platform.  
-This table allows you to compare the performance of each neural network when running on the board.  
-You can also click on the model name to download the version formatted for running on the device.
+Below is benchmark data for various Object Detection models running on the **TCC750X (N-Dolphin)** platform.  
+This table allows you to compare the performance of each neural network when executed on the board.  
+Additionally, clicking on a model name will allow you to download the version formatted for execution on the device.
 
 ---
-
-![YOLO Model Performance](../../docs/image/od_performance.png)
 
 ### 📊 How to Read the Table Below
 
@@ -37,6 +35,8 @@ Inference Time: N-Dolphin EVB에서 실행한 결과입니다.
 Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
 -->
 
+![OD Model Performance](../../docs/image/od_performance.png)
+
 <table border="1" cellspacing="0" cellpadding="5">
     <thead>
         <tr>
@@ -59,17 +59,17 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
     </thead>
     <tbody>
         <tr>
-            <td align="center" rowspan="2" class="model"><a href="MobileNet/">SSDLite</a></td> <!-- Model -->
+            <td align="center" rowspan="2" class="model"><a href="MobileNet/">SSD-Lite</a></td> <!-- Model -->
             <td align="center" class="variant"><a href="MobileNet/lite-model_ssd_mobilenet_v1_100_320_fp32_nms_1/">mb1</a></td>
-            <td align="center">TFLite</td> <!-- Framework -->
+            <td align="center">TensorFlow Lite</td> <!-- Framework -->
             <td align="center">VOC</td> <!-- Detections/DataSet -->
             <td align="center">320x320x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">8</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">44</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
             <td align="center">2.54</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">TBD</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">TBD</td> <!-- Evaluation Result: INT8 -->
+            <td align="center">0.082</td> <!-- Evaluation Result: FP32 -->
+            <td align="center">0.081</td> <!-- Evaluation Result: INT8 -->
             <td align="center"><a href="https://tfhub.dev/iree/lite-model/ssd_mobilenet_v1_100_320/fp32/nms/1">GitHub<a></td> <!-- References: Link -->
         </tr>
         <tr>
@@ -81,8 +81,8 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">4</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">56</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
             <td align="center">2.08</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">TBD</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">TBD</td> <!-- Evaluation Result: INT8 -->
+            <td align="center">0.661</td> <!-- Evaluation Result: FP32 -->
+            <td align="center">0.651</td> <!-- Evaluation Result: INT8 -->
             <td align="center"><a href="https://github.com/openedges/pytorch-ssd">GitHub<a></td> <!-- References: Link -->
         </tr>
         <tr>
@@ -95,8 +95,8 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">60</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">232</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
             <td align="center">66.3</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">0.439</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">0.386</td> <!-- Evaluation Result: INT8 -->
+            <td align="center">0.630</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
+            <td align="center">0.598</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
             <td align="center"><a href="https://github.com/ultralytics/yolov3">GitHub<a></td> <!-- References: Link -->
         </tr>
         <tr>
@@ -109,8 +109,8 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">62</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">308</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
             <td align="center">60.14</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">0.501</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">0.402</td> <!-- Evaluation Result: INT8 -->
+            <td align="center">0.748</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
+            <td align="center">0.735</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
             <td align="center"><a href="https://github.com/AlexeyAB/darknet/blob/master/cfg/yolov4.cfg">Github<a></td> <!-- References: Link -->
         </tr>
         <tr>
@@ -123,8 +123,8 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">2</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">80</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
             <td align="center">9.38</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">0.246</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">0.213</td> <!-- Evaluation Result: INT8 -->
+            <td align="center">0.418</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
+            <td align="center">0.383</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
             <td align="center" rowspan="5"><a href="https://github.com/ultralytics/yolov5">GitHub<a></td> <!-- References: Link -->
         </tr>
         <tr>
@@ -136,8 +136,8 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">7</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">144</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
             <td align="center">14.7</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">0.342</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">0.303</td> <!-- Evaluation Result: INT8 -->
+            <td align="center">0.533</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
+            <td align="center">0.509</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yolov5/yolov5m/">m</a></td> <!-- Model -->
@@ -148,8 +148,8 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">21</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">188</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
             <td align="center">34.9</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">0.424</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">0.385</td> <!-- Evaluation Result: INT8 -->
+            <td align="center">0.610</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
+            <td align="center">0.584</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yolov5/yolov5l/">l</a></td> <!-- Model -->
@@ -160,8 +160,8 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">45</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">308</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
             <td align="center">55.17</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">0.461</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">0.406</td> <!-- Evaluation Result: INT8 -->
+            <td align="center">0.644</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
+            <td align="center">0.619</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yolov5/yolov5x/">x</a></td> <!-- Model -->
@@ -172,8 +172,8 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">83</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">460</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
             <td align="center">107.53</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">0.478</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">0.437</td> <!-- Evaluation Result: INT8 -->
+            <td align="center">0.660</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
+            <td align="center">0.643</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" rowspan="4" class="model"><a href="Yolo/yolov6/">YOLOv6</a></td> <!-- Model -->
@@ -185,8 +185,8 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">5</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">40</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
             <td align="center">6.75</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">0.353</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">0.332</td> <!-- Evaluation Result: INT8 -->
+            <td align="center">0.514</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
+            <td align="center">0.493</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
             <td align="center" rowspan="4"><a href="https://github.com/meituan/YOLOv6">GitHub<a></td> <!-- References: Link -->
         </tr>
         <tr>
@@ -198,8 +198,8 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">18</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">84</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
             <td align="center">20.96</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">0.422</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">0.384</td> <!-- Evaluation Result: INT8 -->
+            <td align="center">0.597</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
+            <td align="center">0.552</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yolov6/yolov6m/">m</a></td> <!-- Model -->
@@ -210,8 +210,8 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">34</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">116</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
             <td align="center">37.96</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">0.468</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">0.462</td> <!-- Evaluation Result: INT8 -->
+            <td align="center">0.648</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
+            <td align="center">0.643</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yolov6/yolov6l/">l</a></td> <!-- Model -->
@@ -222,8 +222,8 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">57</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">240</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
             <td align="center">69.06</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">0.496</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">0.489</td> <!-- Evaluation Result: INT8 -->
+            <td align="center">0.683</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
+            <td align="center">0.673</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" rowspan="1" class="model"><a href="Yolo/yolov7/">YOLOv7</a></td> <!-- Model -->
@@ -235,8 +235,8 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">36</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">244</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
             <td align="center">55.0</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">0.479</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">0.421</td> <!-- Evaluation Result: INT8 -->
+            <td align="center">0.662</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
+            <td align="center">0.648</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
             <td align="center"><a href="https://github.com/WongKinYiu/yolov7">GitHub<a></td> <!-- References: Link -->
         </tr>
         <tr>
@@ -249,8 +249,8 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">4</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">72</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
             <td align="center">8.63</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">0.344</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">0.364</td> <!-- Evaluation Result: INT8 -->
+            <td align="center">0.501</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
+            <td align="center">0.488</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
             <td align="center" rowspan="5"><a href="https://github.com/ultralytics/ultralytics">GitHub<a></td> <!-- References: Link -->
         </tr>
         <tr>
@@ -262,8 +262,8 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">11</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">92</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
             <td align="center">16.17</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">0.459</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">0.442</td> <!-- Evaluation Result: INT8 -->
+            <td align="center">0.586</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
+            <td align="center">0.576</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yolov8/yolov8m/">m</a></td> <!-- Model -->
@@ -274,8 +274,8 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">25</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">156</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
             <td align="center">45.35</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">0.472</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">0.458</td> <!-- Evaluation Result: INT8 -->
+            <td align="center">0.644</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
+            <td align="center">0.632</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yolov8/yolov8l/">l</a></td> <!-- Model -->
@@ -286,8 +286,8 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">42</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">248</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
             <td align="center">69.16</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">0.544</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">0.529</td> <!-- Evaluation Result: INT8 -->
+            <td align="center">0.670</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
+            <td align="center">0.654</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yolov8/yolov8x/">x</a></td> <!-- Model -->
@@ -298,8 +298,8 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">66</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">436</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
             <td align="center">118.06</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">0.559</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">0.540</td> <!-- Evaluation Result: INT8 -->
+            <td align="center">0.681</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
+            <td align="center">0.664</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" rowspan="6" class="model"><a href="Yolo/yolox/">YOLOX</a></td> <!-- Model -->
@@ -311,8 +311,8 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">9</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">188</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
             <td align="center">26.29</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">0.355</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">0.350</td> <!-- Evaluation Result: INT8 -->
+            <td align="center">0.473</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
+            <td align="center">0.467</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
             <td align="center" rowspan="6"><a href="https://github.com/Megvii-BaseDetection/YOLOX">GitHub<a></td> <!-- References: Link -->
         </tr>
         <tr>
@@ -324,8 +324,8 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">25</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">236</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
             <td align="center">52.79</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">0.424</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">0.371</td> <!-- Evaluation Result: INT8 -->
+            <td align="center">0.542</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
+            <td align="center">0.536</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yoloX/yolox_l/">l</a></td> <!-- Model -->
@@ -336,8 +336,8 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">52</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">372</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
             <td align="center">79.72</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">0.450</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">0.442</td> <!-- Evaluation Result: INT8 -->
+            <td align="center">0.572</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
+            <td align="center">0.565</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yoloX/yolox_x/">x</a></td> <!-- Model -->
@@ -348,8 +348,8 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">95</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">560</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
             <td align="center">141.12</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">0.432</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">0.418</td> <!-- Evaluation Result: INT8 -->
+            <td align="center">0.591</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
+            <td align="center">0.583</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yoloX/yolox_tiny/">tiny</a></td> <!-- Model -->
@@ -360,8 +360,8 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">5</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">64</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
             <td align="center">9.26</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">0.287</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">0.277</td> <!-- Evaluation Result: INT8 -->
+            <td align="center">0.411</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
+            <td align="center">0.401</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yoloX/yolox_nano/">nano</a></td> <!-- Model -->
@@ -372,10 +372,10 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">1</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">64</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
             <td align="center">6.71</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">0.209</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">0.069</td> <!-- Evaluation Result: INT8 -->
+            <td align="center">0.326</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
+            <td align="center">0.112</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
     </tbody>
 </table>
 
----
+

@@ -79,13 +79,13 @@ Each model links to its dedicated page with performance metrics and deployment i
             <td align="center" colspan="2">Mb1_SSD_Lite</td> <!-- Model -->
             <td align="center">320x320x3</td> <!-- Input Size(WxHxC) -->
             <td align="center">2.54</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">0.212</td> <!-- COCO AP@[.50:.95] -->
+            <td align="center">0.081</td> <!-- Evaluation Result: INT8 -->
         </tr>
         <tr>
             <td align="center" colspan="2">Mb2_SSD_Lite</td> <!-- Model -->
             <td align="center">300x300x3</td> <!-- Input Size(WxHxC) -->
             <td align="center">2.08</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">0.006</td> <!-- COCO AP@[.50:.95] -->
+            <td align="center">0.651</td> <!-- Evaluation Result: INT8 -->
         </tr>
         <tr>
             <td align="center" colspan="2">YOLOv3</td> <!-- Model -->

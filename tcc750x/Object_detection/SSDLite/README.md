@@ -72,8 +72,8 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">8</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">44</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
             <td align="center">2.54</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">TBD</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">TBD</td> <!-- Evaluation Result: INT8 -->
+            <td align="center">0.082</td> <!-- Evaluation Result: FP32 -->
+            <td align="center">0.081</td> <!-- Evaluation Result: INT8 -->
             <td align="center"><a href="https://tfhub.dev/iree/lite-model/ssd_mobilenet_v1_100_320/fp32/nms/1">GitHub<a></td> <!-- References: Link -->
         </tr>
         <tr>
@@ -85,8 +85,8 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">4</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">56</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
             <td align="center">2.08</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">TBD</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">TBD</td> <!-- Evaluation Result: INT8 -->
+            <td align="center">0.661</td> <!-- Evaluation Result: FP32 -->
+            <td align="center">0.651</td> <!-- Evaluation Result: INT8 -->
             <td align="center"><a href="https://github.com/openedges/pytorch-ssd">GitHub<a></td> <!-- References: Link -->
         </tr>
     </tbody>
