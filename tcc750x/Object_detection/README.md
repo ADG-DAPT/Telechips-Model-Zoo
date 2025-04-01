@@ -288,7 +288,7 @@ You can also click on the model name to download the version formatted for runni
             <td align="center">0.664</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
-            <td align="center" rowspan="6" class="model"><a href="Yolo/yolox/">YOLOX</a></td> <!-- Model -->
+            <td align="center" rowspan="6" class="model"><a href="Yolo/yoloX/">YOLOX</a></td> <!-- Model -->
             <td align="center" class="variant"><a href="Yolo/yoloX/yolox_s/">s</a></td> <!-- Model -->
             <td align="center">Pytorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
