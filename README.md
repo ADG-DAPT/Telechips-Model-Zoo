@@ -62,7 +62,7 @@ The name of each model links to its dedicated page with performance metrics and 
             <th rowspan="2" colspan="2" style="width:25%">Model</th>
             <th rowspan="2" style="width:20%">Input Size (WxHxC)</th>
             <th rowspan="2" style="width:20%">Inference Time (ms)</th>
-            <th rowspan="2" style="width:20%">Accuracy/
+            <th rowspan="2" style="width:20%">Accuracy /
             mAP@50</th>
         </tr>
     </thead>
@@ -72,7 +72,7 @@ The name of each model links to its dedicated page with performance metrics and 
             <td align="center" colspan="2">mobileNetv2-10</td> <!-- Model -->
             <td align="center">224x224x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">1.31</td> <!-- Inference Time (msec): EVB -->
-            <td align="center">0.6879</td> <!-- Accuracy -->
+            <td align="center">0.687</td> <!-- Accuracy -->
         </tr>
         <tr>
             <td align="center" rowspan="26"><a href="tcc750x/Object_detection/README.md">Object detection</a></td> <!-- Category -->
