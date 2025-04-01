@@ -22,7 +22,7 @@ You can also click on the model name in the table allows you to download the bin
 | **Quantization Bit**     | Bit-depth used for quantization (e.g., INT8)                                |
 | **Binary Files Info.**   | Size of the compiled neural network binaries for TCC750x                    |
 | **Inference Time (ms)**  | Inference time measured on the N-Dolphin EVB by using zero-padded input images                             |
-| **mAP@50-95**             | Mean Average Precision (mAP) is evaluated on the **COCO val2017 dataset** (5,000 images)                    |
+| **mAP**             | Mean Average Precision (mAP) is evaluated on the **COCO val2017 dataset** (5,000 images)                    |
 | **References**           | Link to the original GitHub repository of the model                         |
 
 ---
