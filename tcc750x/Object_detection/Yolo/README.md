@@ -1,6 +1,6 @@
 # YOLO Series Benchmark on TCC750x
 
-The following is benchmark data for various **YOLO (You Only Look Once)** object detection models that run on the **TCC750x (N-Dolphin)**.  
+The following is benchmark data for various **YOLO (You Only Look Once)** object detection models that run on the **TCC750x** platform.  
 YOLO models are widely known for their real-time performance and high accuracy in detecting multiple objects in a single pass over the image.  
 This benchmark covers multiple YOLO versions (v3 to v8, YOLOX, YOLOv6, and so on), providing insight into their speed and detection accuracy on embedded hardware.
 
@@ -17,12 +17,12 @@ You can also click on the model name in the table allows you to download the bin
 |--------------------------|-----------------------------------------------------------------------------|
 | **Model**                | Name of the neural network model     |
 | **Framework**            | Deep learning framework used (e.g., PyTorch, TFLite, ONNX)                  |
-| **Dataset**              | Evaluation dataset (COCO val2017)                       |
+| **Dataset**              | Evaluation dataset (COCO val2017 or VOC2007 test set)                       |
 | **Input Size (WxHxC)**   | Model input resolution and channel configuration                            |
 | **Quantization Bit**     | Bit-depth used for quantization (e.g., INT8)                                |
-| **Binary Files Info.**   | Size of the compiled neural network binaries for TCC750x                    |
-| **Inference Time (ms)**  | Inference time measured on the N-Dolphin EVB by using zero-padded input images                             |
-| **mAP@50-95**             | Mean Average Precision (mAP) is evaluated on the **COCO val2017 dataset** (5,000 images)                    |
+| **Binary Files Info.**   | Size of the compiled neural network binaries for TCC750X                    |
+| **Inference Time (ms)**  | Inference time measured on the TCC750x EVB using zero-padded input images.                               |
+| **mAP**             | mAP (mean Average Precision) is evaluated on the **COCO val2017 dataset** (5,000 images) or the **VOC2007 test dataset** (4,952 images).                    |
 | **References**           | Link to the original GitHub repository of the model                         |
 
 ---

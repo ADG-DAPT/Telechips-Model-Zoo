@@ -2,18 +2,14 @@
 
 ![N-Dolphin Image](../docs/image/n_dolphin.png)
 
-This folder contains benchmark data for neural networks supported by the TCC750x, as well as neural network models that can be run on the board.
-
-<!--
-이 폴더에는 TCC750X에서 지원하는 신경망의 벤치마크 자료와 보드에서 실행할 수 있는 신경망 모델이 포함되어 있습니다.
--->
+This folder contains benchmark data for neural networks supported by the TCC750x, as well as neural network models that can be run on the TCC750x EVB.
 
 TCC750x - [Classification](./Classification/README.md), [Object_detection](./Object_detection/README.md)
 
 ---
 
 ## **Getting Started**
-Follow the steps to run a model on a Telechips Evaluation Board (EVB).
+Follow the steps to run a model on a TCC750x EVB.
 
 ### 1. Clone repository:
 <pre> <code>
@@ -21,12 +17,12 @@ git clone git@github.com:ADG-DAPT/Telechips-Model-Zoo.git
 </code> </pre>
 
 ### 2. Copy desired model to EVB:
-Copy the entire model folder to your EVB. Each folder contains the necessary output files (.so, .bin, etc.).
+Copy the entire model folder to TCC750x EVB. Each folder contains the necessary output files (.so, .bin, etc.).
 <pre> <code>
 scp -r [network_output_folder] root@192.168.0.100:/path/to/target/
 </code> </pre>
 Replace [network_output_folder] with the actual folder (e.g., yolov5m/).  
-Replace <evb_ip> with the IP address of your EVB board.
+Replace <evb_ip> with the IP address of TCC750x EVB.
 
 ### ***Example: TCC750x - YOLOv5m Folder Structure***
 <pre> <code>

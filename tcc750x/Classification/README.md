@@ -1,7 +1,7 @@
 # Classification Benchmark on TCC750x
-The following is benchmark data for various image classification models running on the TCC750x (N-Dolphin).
-The following table allows you to compare the performance of each neural network when running on the board.
-You can also click the model name to download the version formatted for execution on the device.
+The following is benchmark data for various image classification models running on the **TCC750x** platform.  
+The following table allows you to compare the performance of each neural network when running on the TCC750x EVB.
+You can also click the model name to download the version formatted for execution on the TCC750x EVB.
 
 - - -
 
@@ -20,17 +20,6 @@ You can also click the model name to download the version formatted for executio
 | **References**           | Link to the original GitHub repository of the model      
 
 - - -
-<!--
-아래는 TCC750X에서 실행되는 Classification 모델의 벤치마크 자료입니다.
-이 표를 통해 각 신경망이 N-Dolphin (TCC750X) 보드에서 실행될 때의 성능을 확인할 수 있습니다.
-또한, 신경망 이름을 클릭하면 해당 보드에서 실행할 수 있는 형식의 결과물을 다운로드할 수 있습니다.
-
-참조사항
-Evaluation: tc-nn-toolkit을 이용하여 측정한 결과입니다.
-- Evaluation Result의 FP32: .enlight 확장자로 변환된 상태에서 측정된 값입니다.
-Inference Time: N-Dolphin EVB에서 실행한 결과입니다.
-Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
--->
 
 <table border="1" cellspacing="0" cellpadding="5">
     <thead>

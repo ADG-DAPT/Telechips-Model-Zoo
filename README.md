@@ -63,7 +63,7 @@ The name of each model links to its dedicated page with performance metrics and 
             <th rowspan="2" style="width:20%">Input Size (WxHxC)</th>
             <th rowspan="2" style="width:20%">Inference Time (ms)</th>
             <th rowspan="2" style="width:20%">Accuracy/
-            mAP@50-95</th>
+            mAP@50</th>
         </tr>
     </thead>
     <tbody>
@@ -79,7 +79,7 @@ The name of each model links to its dedicated page with performance metrics and 
             <td align="center" colspan="2">Mb1_SSD_Lite</td> <!-- Model -->
             <td align="center">320x320x3</td> <!-- Input Size(WxHxC) -->
             <td align="center">2.54</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">0.081</td> <!-- Evaluation Result: INT8 -->
+            <td align="center">0.367</td> <!-- COCO AP@[.50:.95] -->
         </tr>
         <tr>
             <td align="center" colspan="2">Mb2_SSD_Lite</td> <!-- Model -->
@@ -91,143 +91,143 @@ The name of each model links to its dedicated page with performance metrics and 
             <td align="center" colspan="2">YOLOv3</td> <!-- Model -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">66.3</td> <!-- Inference Time (msec): EVB -->
-            <td align="center">0.386</td> <!-- COCO AP@[.50:.95] -->
+            <td align="center">0.598</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" colspan="2">YOLOv4</td> <!-- Model -->
             <td align="center">608x608x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">60.14</td> <!-- Inference Time (msec): EVB -->
-            <td align="center">0.402</td> <!-- COCO AP@[.50:.95] -->
+            <td align="center">0.735</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" rowspan="5" class="model">YOLOv5</td> <!-- Models -->
             <td align="center" class="variant">n</td> <!-- Models: Variant -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">9.38</td> <!-- Inference Time (msec): EVB -->
-            <td align="center">0.213</td> <!-- COCO AP@[.50:.95] -->
+            <td align="center">0.383</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant">s</td> <!-- Models: Variant -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">14.7</td> <!-- Inference Time (msec): EVB -->
-            <td align="center">0.303</td> <!-- COCO AP@[.50:.95] -->
+            <td align="center">0.509</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant">m</td> <!-- Models: Variant -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">34.9</td> <!-- Inference Time (msec): EVB -->
-            <td align="center">0.385</td> <!-- COCO AP@[.50:.95] -->
+            <td align="center">0.584</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant">l</td> <!-- Models: Variant -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">55.17</td> <!-- Inference Time (msec): EVB -->
-            <td align="center">0.406</td> <!-- COCO AP@[.50:.95] -->
+            <td align="center">0.619</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant">x</td> <!-- Models: Variant -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">107.53</td> <!-- Inference Time (msec): EVB -->
-            <td align="center">0.437</td> <!-- COCO AP@[.50:.95] -->
+            <td align="center">0.643</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" rowspan="4" class="model">YOLOv6</td> <!-- Models -->
             <td align="center" class="variant">n</td> <!-- Models: Variant -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">6.75</td> <!-- Inference Time (msec): EVB -->
-            <td align="center">0.332</td> <!-- COCO AP@[.50:.95] -->
+            <td align="center">0.493</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant">s</td> <!-- Models: Variant -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">20.96</td> <!-- Inference Time (msec): EVB -->
-            <td align="center">0.384</td> <!-- COCO AP@[.50:.95] -->
+            <td align="center">0.552</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant">m</td> <!-- Models: Variant -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">37.96</td> <!-- Inference Time (msec): EVB -->
-            <td align="center">0.462</td> <!-- COCO AP@[.50:.95] -->
+            <td align="center">0.643</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant">l</td> <!-- Models: Variant -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">69.06</td> <!-- Inference Time (msec): EVB -->
-            <td align="center">0.489</td> <!-- COCO AP@[.50:.95] -->
+            <td align="center">0.673</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" colspan="2">YOLOv7</td> <!-- Model -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">55.0</td> <!-- Inference Time (msec): EVB -->
-            <td align="center">0.421</td> <!-- COCO AP@[.50:.95] -->
+            <td align="center">0.648</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" rowspan="5" class="model">YOLOv8</td> <!-- Models -->
             <td align="center" class="variant">n</td> <!-- Models: Variant -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">8.63</td> <!-- Inference Time (msec): EVB -->
-            <td align="center">0.364</td> <!-- COCO AP@[.50:.95] -->
+            <td align="center">0.488</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant">s</td> <!-- Models: Variant -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">16.17</td> <!-- Inference Time (msec): EVB -->
-            <td align="center">0.442</td> <!-- COCO AP@[.50:.95] -->
+            <td align="center">0.576</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant">m</td> <!-- Models: Variant -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">45.35</td> <!-- Inference Time (msec): EVB -->
-            <td align="center">0.458</td> <!-- COCO AP@[.50:.95] -->
+            <td align="center">0.632</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant">l</td> <!-- Models: Variant -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">69.16</td> <!-- Inference Time (msec): EVB -->
-            <td align="center">0.529</td> <!-- COCO AP@[.50:.95] -->
+            <td align="center">0.654</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant">x</td> <!-- Models: Variant -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">118.06</td> <!-- Inference Time (msec): EVB -->
-            <td align="center">0.540</td> <!-- COCO AP@[.50:.95] -->
+            <td align="center">0.664</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" rowspan="6" class="model">YOLOX</td> <!-- Models -->
             <td align="center" class="variant">s</td> <!-- Models: Variant -->
             <td align="center">608x608x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">26.29</td> <!-- Inference Time (msec): EVB -->
-            <td align="center">0.350</td> <!-- COCO AP@[.50:.95] -->
+            <td align="center">0.467</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant">m</td> <!-- Models: Variant -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">52.79</td> <!-- Inference Time (msec): EVB -->
-            <td align="center">0.371</td> <!-- COCO AP@[.50:.95] -->
+            <td align="center">0.536</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant">l</td> <!-- Models: Variant -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">79.72</td> <!-- Inference Time (msec): EVB -->
-            <td align="center">0.442</td> <!-- COCO AP@[.50:.95] -->
+            <td align="center">0.565</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant">x</td> <!-- Models: Variant -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">141.12</td> <!-- Inference Time (ms/img) -->
-            <td align="center">0.418</td> <!-- COCO AP@[.50:.95] -->
+            <td align="center">0.583</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant">tiny</td> <!-- Models: Variant -->
             <td align="center">416x416x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">9.26</td> <!-- Inference Time (ms/img) -->
-            <td align="center">0.277</td> <!-- COCO AP@[.50:.95] -->
+            <td align="center">0.401</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant">nano</td> <!-- Models: Variant -->
             <td align="center">416x416x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">6.71</td> <!-- Inference Time (ms/img) -->
-            <td align="center">0.069</td> <!-- COCO AP@[.50:.95] -->
+            <td align="center">0.112</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
     </tbody>
 </table>
