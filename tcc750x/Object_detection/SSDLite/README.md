@@ -8,10 +8,9 @@ This benchmark includes popular SSD-Lite models (e.g., MobileNet-SSD, MobileNetV
 
 You can also clisk on the model name in the table to download the binary that can run on the TCC750x EVB.
 
-
 ---
 
-<!-- ![YOLO Model Performance](../../docs/image/od_performance.png) -->
+![YOLO Model Performance](../../docs/image/SSDLite_performance.png)
 
 ### 📊 Table Overview
 
@@ -19,12 +18,12 @@ You can also clisk on the model name in the table to download the binary that ca
 |--------------------------|-----------------------------------------------------------------------------|
 | **Model**                | Name of the neural network model     |
 | **Framework**            | Deep learning framework used (e.g., PyTorch, TFLite, ONNX)                  |
-| **Dataset**              | Evaluation dataset (VOC2007 test set)                       |
+| **Dataset**              | Evaluation dataset (COCO val2017 or VOC2007 test set)                       |
 | **Input Size (WxHxC)**   | Model input resolution and channel configuration                            |
 | **Quantization Bit**     | Bit-depth used for quantization (e.g., INT8)                                |
 | **Binary Files Info.**   | Size of the compiled neural network binaries for TCC750x                    |
 | **Inference Time (ms)**  | Inference time measured on the TCC750x EVB using zero-padded input images.                               |
-| **mAP@50-95**             | mAP (mean Average Precision) is evaluated on the **VOC2007 test dataset** (4,952 images).                    |
+| **mAP**             | mAP (mean Average Precision) is evaluated on the **COCO val2017** (5,000 images) or the **VOC2007 test dataset** (4,952 images).                    |
 | **References**           | Link to the original GitHub repository of the model                         |
 
 ---
@@ -66,7 +65,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
         <tr>
             <td align="center" class="variant"><a href="MobileNet/lite-model_ssd_mobilenet_v1_100_320_fp32_nms_1/">mobilenetv1-SSDLite</a></td>
             <td align="center">TFLite</td> <!-- Framework -->
-            <td align="center">VOC2007</td> <!-- Detections/DataSet -->
+            <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">320x320x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">8</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
