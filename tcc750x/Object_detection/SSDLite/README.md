@@ -62,7 +62,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <th>INT8</th>
         </tr>
     </thead>
-    <tbody>
+    <tbody width="100%">
         <tr>
             <td align="center" class="variant"><a href="MobileNet/lite-model_ssd_mobilenet_v1_100_320_fp32_nms_1/">mobilenetv1-SSDLite</a></td>
             <td align="center">TFLite</td> <!-- Framework -->
