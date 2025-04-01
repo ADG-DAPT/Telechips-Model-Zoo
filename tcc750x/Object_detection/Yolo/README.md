@@ -66,7 +66,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
     </thead>
     <tbody>
         <tr>
-            <td align="center" colspan="2"><a href="Yolo/yolov3/">YOLOv3</a></td> <!-- Model -->
+            <td align="center" colspan="2"><a href="./yolov3/">YOLOv3</a></td> <!-- Model -->
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
@@ -81,7 +81,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center"><a href="https://github.com/ultralytics/yolov3">GitHub<a></td> <!-- References: Link -->
         </tr>
         <tr>
-            <td align="center" colspan="2"><a href="Yolo/yolov4/">YOLOv4</a></td> <!-- Model -->
+            <td align="center" colspan="2"><a href="./yolov4/">YOLOv4</a></td> <!-- Model -->
             <td align="center">Darknet</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">608x608x3</td> <!-- Input Size (WxHxC) -->
@@ -97,7 +97,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
         </tr>
         <tr>
             <td align="center" rowspan="5" class="model">YOLOv5</td> <!-- Model -->
-            <td align="center" class="variant"><a href="Yolo/yolov5/yolov5n/">n</a></td>
+            <td align="center" class="variant"><a href="./yolov5/yolov5n/">n</a></td>
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
@@ -112,7 +112,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center" rowspan="5"><a href="https://github.com/ultralytics/yolov5">GitHub<a></td> <!-- References: Link -->
         </tr>
         <tr>
-            <td align="center" class="variant"><a href="Yolo/yolov5/yolov5s/">s</a></td> <!-- Model -->
+            <td align="center" class="variant"><a href="./yolov5/yolov5s/">s</a></td> <!-- Model -->
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
@@ -126,7 +126,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">0.509</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
-            <td align="center" class="variant"><a href="Yolo/yolov5/yolov5m/">m</a></td> <!-- Model -->
+            <td align="center" class="variant"><a href="./yolov5/yolov5m/">m</a></td> <!-- Model -->
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
@@ -140,7 +140,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">0.584</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
-            <td align="center" class="variant"><a href="Yolo/yolov5/yolov5l/">l</a></td> <!-- Model -->
+            <td align="center" class="variant"><a href="./yolov5/yolov5l/">l</a></td> <!-- Model -->
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
@@ -154,7 +154,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">0.619</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
-            <td align="center" class="variant"><a href="Yolo/yolov5/yolov5x/">x</a></td> <!-- Model -->
+            <td align="center" class="variant"><a href="./yolov5/yolov5x/">x</a></td> <!-- Model -->
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
@@ -169,7 +169,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
         </tr>
         <tr>
             <td align="center" rowspan="4" class="model">YOLOv6</td> <!-- Model -->
-            <td align="center" class="variant"><a href="Yolo/yolov6/yolov6n/">n</a></td> <!-- Models: Variant -->
+            <td align="center" class="variant"><a href="./yolov6/yolov6n/">n</a></td> <!-- Models: Variant -->
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
@@ -184,7 +184,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center" rowspan="4"><a href="https://github.com/meituan/YOLOv6">GitHub<a></td> <!-- References: Link -->
         </tr>
         <tr>
-            <td align="center" class="variant"><a href="Yolo/yolov6/yolov6s/">s</a></td> <!-- Model -->
+            <td align="center" class="variant"><a href="./yolov6/yolov6s/">s</a></td> <!-- Model -->
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
@@ -198,7 +198,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">0.552</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
-            <td align="center" class="variant"><a href="Yolo/yolov6/yolov6m/">m</a></td> <!-- Model -->
+            <td align="center" class="variant"><a href="./yolov6/yolov6m/">m</a></td> <!-- Model -->
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
@@ -212,7 +212,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">0.643</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
-            <td align="center" class="variant"><a href="Yolo/yolov6/yolov6l/">l</a></td> <!-- Model -->
+            <td align="center" class="variant"><a href="./yolov6/yolov6l/">l</a></td> <!-- Model -->
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
@@ -226,7 +226,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">0.673</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
-            <td align="center" colspan="2"><a href="Yolo/yolov7/">YOLOv7</a></td> <!-- Model -->
+            <td align="center" colspan="2"><a href="./yolov7/">YOLOv7</a></td> <!-- Model -->
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
@@ -242,7 +242,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
         </tr>
         <tr>
             <td align="center" rowspan="5" class="model">YOLOv8</td> <!-- Model -->
-            <td align="center" class="variant"><a href="Yolo/yolov8/yolov8n/">n</a></td>
+            <td align="center" class="variant"><a href="./yolov8/yolov8n/">n</a></td>
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
@@ -257,7 +257,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center" rowspan="5"><a href="https://github.com/ultralytics/ultralytics">GitHub<a></td> <!-- References: Link -->
         </tr>
         <tr>
-            <td align="center" class="variant"><a href="Yolo/yolov8/yolov8s/">s</a></td> <!-- Model -->
+            <td align="center" class="variant"><a href="./yolov8/yolov8s/">s</a></td> <!-- Model -->
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
@@ -271,7 +271,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">0.576</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
-            <td align="center" class="variant"><a href="Yolo/yolov8/yolov8m/">m</a></td> <!-- Model -->
+            <td align="center" class="variant"><a href="./yolov8/yolov8m/">m</a></td> <!-- Model -->
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
@@ -285,7 +285,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">0.632</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
-            <td align="center" class="variant"><a href="Yolo/yolov8/yolov8l/">l</a></td> <!-- Model -->
+            <td align="center" class="variant"><a href="./yolov8/yolov8l/">l</a></td> <!-- Model -->
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
@@ -299,7 +299,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">0.654</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
-            <td align="center" class="variant"><a href="Yolo/yolov8/yolov8x/">x</a></td> <!-- Model -->
+            <td align="center" class="variant"><a href="./yolov8/yolov8x/">x</a></td> <!-- Model -->
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
@@ -314,7 +314,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
         </tr>
         <tr>
             <td align="center" rowspan="6" class="model">YOLOX</td> <!-- Model -->
-            <td align="center" class="variant"><a href="Yolo/yoloX/yolox_s/">s</a></td> <!-- Model -->
+            <td align="center" class="variant"><a href="./yoloX/yolox_s/">s</a></td> <!-- Model -->
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
@@ -329,7 +329,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center" rowspan="6"><a href="https://github.com/Megvii-BaseDetection/YOLOX">GitHub<a></td> <!-- References: Link -->
         </tr>
         <tr>
-            <td align="center" class="variant"><a href="Yolo/yoloX/yolox_m/">m</a></td> <!-- Model -->
+            <td align="center" class="variant"><a href="./yoloX/yolox_m/">m</a></td> <!-- Model -->
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
@@ -343,7 +343,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">0.536</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
-            <td align="center" class="variant"><a href="Yolo/yoloX/yolox_l/">l</a></td> <!-- Model -->
+            <td align="center" class="variant"><a href="./yoloX/yolox_l/">l</a></td> <!-- Model -->
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
@@ -357,7 +357,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">0.565</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
-            <td align="center" class="variant"><a href="Yolo/yoloX/yolox_x/">x</a></td> <!-- Model -->
+            <td align="center" class="variant"><a href="./yoloX/yolox_x/">x</a></td> <!-- Model -->
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
@@ -371,7 +371,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">0.583</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
-            <td align="center" class="variant"><a href="Yolo/yoloX/yolox_tiny/">tiny</a></td> <!-- Model -->
+            <td align="center" class="variant"><a href="./yoloX/yolox_tiny/">tiny</a></td> <!-- Model -->
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">416x416x3</td> <!-- Input Size (WxHxC) -->
@@ -385,7 +385,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <td align="center">0.401</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
-            <td align="center" class="variant"><a href="Yolo/yoloX/yolox_nano/">nano</a></td> <!-- Model -->
+            <td align="center" class="variant"><a href="./yoloX/yolox_nano/">nano</a></td> <!-- Model -->
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">416x416x3</td> <!-- Input Size (WxHxC) -->
