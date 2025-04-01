@@ -1,6 +1,6 @@
 # Classification Benchmark on TCC750x
 The following is benchmark data for various image classification models running on the **TCC750x** platform.  
-The following table allows you to compare the performance of each neural network when running on the TCC750x.
+The following table allows you to compare the performance of each neural network when running on the TCC750x.  
 You can also click the model name to download the version formatted for execution on the TCC750x.
 
 - - -
