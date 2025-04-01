@@ -17,12 +17,12 @@ Clicking on a model name in the table allows you to download the binary, ready t
 |--------------------------|-----------------------------------------------------------------------------|
 | **Model**                | Name of the neural network model     |
 | **Framework**            | Deep learning framework used (e.g., PyTorch, TFLite, ONNX)                  |
-| **Dataset**              | Evaluation dataset (COCO val2017 or VOC2007 test set)                       |
+| **Dataset**              | Evaluation dataset (COCO val2017)                       |
 | **Input Size (WxHxC)**   | Model input resolution and channel configuration                            |
 | **Quantization Bit**     | Bit-depth used for quantization (e.g., INT8)                                |
 | **Binary Files Info.**   | Size of the compiled neural network binaries for TCC750X                    |
 | **Inference Time (ms)**  | Inference time measured on the N-Dolphin EVB using zero-padded input images.                               |
-| **mAP@50-95**             | mAP (mean Average Precision) is evaluated on the **COCO val2017 dataset** (5,000 images) or the **VOC2007 test dataset** (4,952 images).                    |
+| **mAP@50-95**             | mAP (mean Average Precision) is evaluated on the **COCO val2017 dataset** (5,000 images).                    |
 | **References**           | Link to the original GitHub repository of the model                         |
 
 ---

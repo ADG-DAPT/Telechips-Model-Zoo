@@ -82,7 +82,3 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
 - Return the top-k predicted class indices and confidence scores.
 
 - - -
-
-## 🔗 Official Resources
-- 💻 [MobileNet ONNX Github](https://github.com/onnx/models/tree/main/validated/vision/classification/mobilenet)
-- 📜 [MobileNet Paper](https://arxiv.org/abs/1801.04381)
