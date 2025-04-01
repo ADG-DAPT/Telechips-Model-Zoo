@@ -41,7 +41,7 @@
             <td align="center" rowspan="4"><a href="https://github.com/meituan/YOLOv6">GitHub<a></td> <!-- References: Link -->
         </tr>
         <tr>
-            <td align="center" class="variant">s<</td> <!-- Model -->
+            <td align="center" class="variant">s</td> <!-- Model -->
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
