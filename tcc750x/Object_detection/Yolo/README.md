@@ -404,16 +404,17 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
 
 ## 📤 Output Format
 
-- The output of each YOLO model is a set of **bounding boxes** with associated class predictions and confidence scores.
-- Each detection includes the following information:
-  - **(x, y, w, h)**: Center coordinates, width, and height (normalized or absolute, depending on the model) of the bounding box
-  - **Objectness score**: Confidence that an object exists in the box
-  - **Class probabilities**: Confidence scores for each class
-  - **Final score**: Typically computed as `objectness × class probability`
+- The raw output of a YOLO model is a tensor (or multiple tensors) containing a dense grid of predictions across different spatial locations and anchor boxes.
+- These raw outputs undergo post-processing, which includes:
+  - Applying sigmoid/softmax activations to normalize outputs
+  - Filtering boxes based on confidence thresholds
+  - Applying Non-Maximum Suppression (NMS) to remove overlapping boxes
 
-- After post-processing (e.g., **Non-maximum Suppression**), the model returns a list of **top-k detected objects** in the image, each including:
-  - Bounding box coordinates
+- The final post-processed output includes a list of detected objects, each containing:
   - Class label
   - Confidence score
+  - Bounding box coordinates (x_min, y_min, x_max, y_max)
+    
+- The maximum number of detections is 256
 
 - The number and format of output tensors may vary slightly depending on the YOLO version (e.g., v5, v6, v8, YOLOX), but the core structure remains similar.
