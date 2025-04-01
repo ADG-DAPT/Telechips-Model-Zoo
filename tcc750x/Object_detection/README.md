@@ -1,8 +1,8 @@
 # Object Detection Benchmark on TCC750x
 
 The following is benchmark data for various Object Detection models running on the **TCC750x** platform.  
-This table allows you to compare the performance of each neural network when running on the TCC750x EVB.  
-You can also click on the model name to download the version formatted for running on the TCC750x EVB.
+This table allows you to compare the performance of each neural network when running on the TCC750x.  
+You can also click on the model name to download the version formatted for running on the TCC750x.
 
 ---
 
