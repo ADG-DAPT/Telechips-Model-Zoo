@@ -66,7 +66,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
         <tr>
             <td align="center" class="variant"><a href="MobileNet/lite-model_ssd_mobilenet_v1_100_320_fp32_nms_1/">mobilenetv1-SSDLite</a></td>
             <td align="center">TFLite</td> <!-- Framework -->
-            <td align="center">VOC</td> <!-- Detections/DataSet -->
+            <td align="center">VOC2007</td> <!-- Detections/DataSet -->
             <td align="center">320x320x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">8</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
