@@ -11,11 +11,11 @@ Click a model name to download the version formatted for execution on the device
 |--------------------------|-----------------------------------------------------------------------------|
 | **Model**                | Name of the neural network model (clickable for download, if available)     |
 | **Framework**            | Deep learning framework used (e.g., PyTorch, TFLite, ONNX)                  |
-| **Dataset**              | Evaluation dataset used (e.g., ImageNet validation set with 50,000 images)  |
+| **Dataset**              | Evaluation dataset (e.g., ImageNet validation set with 50,000 images)  |
 | **Input Size (WxHxC)**   | Model input resolution and channel configuration                            |
 | **Quantization Bit**     | Bit-depth used for quantization (e.g., INT8)                                |
 | **Binary Files Info.**   | Size of the compiled neural network binaries for TCC750x                    |
-| **Inference Time (ms)**  | Measured on the N-Dolphin EVB using zero-padded input images                |
+| **Inference Time (ms)**  | Inference time measured on the TCC750x EVB using zero-padded input images                |
 | **Accuracy**             | Classification top-1 accuracy on the ImageNet validation dataset (50,000 images)                    |
 | **References**           | Link to the original GitHub repository of the model      
 
