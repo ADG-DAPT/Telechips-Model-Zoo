@@ -1,11 +1,11 @@
-# MobileNet Benchmark on TCC750X
+# MobileNet Benchmark on TCC750x
 
-Below is benchmark data for various **MobileNet models** running on the **TCC750X (N-Dolphin)** platform.  
-MobileNet is a family of lightweight and efficient convolutional neural networks optimized for **image classification** tasks, especially on **embedded and mobile devices**.  
+This section describes benchmark data for various **MobileNet models** running on the **TCC750x (N-Dolphin)**.  
+MobileNet is a family of lightweight and efficient convolutional neural networks optimized for **image classification** tasks, particularly on **embedded and mobile devices**.  
 <!-- This benchmark showcases how different MobileNet variants (e.g., V1, V2, V3) perform when compiled, quantized (INT8), and executed on the TCC750X board. -->
 
 All models are evaluated using the **ImageNet validation dataset** and compiled with the **tc-nn-toolkit**.  
-You can click each model name in the table to download the binary ready for deployment on the device.
+Click each model name in the table to download the binary ready for deployment on the device.
 
 ---
 
@@ -15,12 +15,12 @@ You can click each model name in the table to download the binary ready for depl
 |--------------------------|-----------------------------------------------------------------------------|
 | **Model**                | Name of the neural network model (clickable for download, if available)     |
 | **Framework**            | Deep learning framework used (e.g., PyTorch, TFLite, ONNX)                  |
-| **Dataset**              | Evaluation dataset used (e.g., ImageNet validation set with 50,000 images)  |
+| **Dataset**              | Evaluation dataset (e.g., ImageNet validation set with 50,000 images)  |
 | **Input Size (WxHxC)**   | Model input resolution and channel configuration                            |
 | **Quantization Bit**     | Bit-depth used for quantization (e.g., INT8)                                |
-| **Binary Files Info.**   | Size of the compiled neural network binaries for TCC750X                    |
-| **Inference Time (ms)**  | Measured on the N-Dolphin EVB using zero-padded input images                |
-| **Accuracy**             | Classification top-1 accuracy on ImageNet validation dataset (50,000 images)                    |
+| **Binary Files Info.**   | Size of the compiled neural network binaries for TCC750x                    |
+| **Inference Time (ms)**  | Inference time measured on the TCC750x EVB using zero-padded input images                |
+| **Accuracy**             | Classification top-1 accuracy on the ImageNet validation dataset (50,000 images)                    |
 | **References**           | Link to the original GitHub repository of the model      
 
 - - -
@@ -77,7 +77,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
 
 ## 📤 Output Format
 
-- The output is a 1D tensor of **1000 class scores** (ImageNet classes).
+- The output is a 1D tensor of **1,000 class scores** (ImageNet classes).
 - Apply **softmax** to obtain class probabilities.
 - Return the top-k predicted class indices and confidence scores.
 
