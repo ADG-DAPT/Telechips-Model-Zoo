@@ -45,8 +45,8 @@ You can also click on the model name to download the version formatted for runni
     </thead>
     <tbody>
         <tr>
-            <td align="center" rowspan="2" class="model"><a href="MobileNet/">SSD-Lite</a></td> <!-- Model -->
-            <td align="center" class="variant"><a href="MobileNet/lite-model_ssd_mobilenet_v1_100_320_fp32_nms_1/">mb1</a></td>
+            <td align="center" rowspan="2" class="model"><a href="SSDLite">SSD-Lite</a></td> <!-- Model -->
+            <td align="center" class="variant"><a href="SSDLite/lite-model_ssd_mobilenet_v1_100_320_fp32_nms_1/">mb1</a></td>
             <td align="center">TFLite</td> <!-- Framework -->
             <td align="center">VOC2007</td> <!-- Detections/DataSet -->
             <td align="center">320x320x3</td> <!-- Input Size (WxHxC) -->
@@ -59,7 +59,7 @@ You can also click on the model name to download the version formatted for runni
             <td align="center"><a href="https://tfhub.dev/iree/lite-model/ssd_mobilenet_v1_100_320/fp32/nms/1">GitHub<a></td> <!-- References: Link -->
         </tr>
         <tr>
-            <td align="center" class="variant"><a href="MobileNet/mb2_ssd_lite/">mb2</a></td> <!-- Model -->
+            <td align="center" class="variant"><a href="SSDLite/mb2_ssd_lite/">mb2</a></td> <!-- Model -->
             <td align="center">ONNX</td> <!-- Framework -->
             <td align="center">VOC2007</td> <!-- Detections/DataSet -->
             <td align="center">300x300x3</td> <!-- Input Size (WxHxC) -->

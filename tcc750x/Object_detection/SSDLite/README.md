@@ -53,7 +53,7 @@ You can also clisk on the model name in the table to download the binary that ca
     </thead>
     <tbody>
         <tr>
-            <td align="center" class="variant"><a href="MobileNet/lite-model_ssd_mobilenet_v1_100_320_fp32_nms_1/">mobilenetv1-SSDLite</a></td>
+            <td align="center" class="variant"><a href="./lite-model_ssd_mobilenet_v1_100_320_fp32_nms_1/">mobilenetv1-SSDLite</a></td>
             <td align="center">TFLite</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">320x320x3</td> <!-- Input Size (WxHxC) -->
@@ -68,7 +68,7 @@ You can also clisk on the model name in the table to download the binary that ca
             <td align="center"><a href="https://tfhub.dev/iree/lite-model/ssd_mobilenet_v1_100_320/fp32/nms/1">GitHub<a></td> <!-- References: Link -->
         </tr>
         <tr>
-            <td align="center" class="variant"><a href="MobileNet/mb2_ssd_lite/">mobilenetv2-SSDLite</a></td> <!-- Model -->
+            <td align="center" class="variant"><a href="./mb2_ssd_lite/">mobilenetv2-SSDLite</a></td> <!-- Model -->
             <td align="center">ONNX</td> <!-- Framework -->
             <td align="center">VOC2007</td> <!-- Detections/DataSet -->
             <td align="center">300x300x3</td> <!-- Input Size (WxHxC) -->

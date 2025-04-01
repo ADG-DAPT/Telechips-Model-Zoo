@@ -26,7 +26,7 @@
     <tbody>
         <tr>
             <td align="center" rowspan="5" class="model">YOLOv8</td> <!-- Model -->
-            <td align="center" class="variant"><a href="Yolo/yolov8/yolov8n/">n</a></td>
+            <td align="center" class="variant">n</td>
             <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->

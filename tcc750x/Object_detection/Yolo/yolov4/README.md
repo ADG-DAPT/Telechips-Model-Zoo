@@ -25,7 +25,7 @@
     </thead>
     <tbody>
         <tr>
-            <td align="center" colspan="2"><a href="Yolo/yolov4/">YOLOv4</a></td> <!-- Model -->
+            <td align="center" colspan="2">YOLOv4</td> <!-- Model -->
             <td align="center">Darknet</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">608x608x3</td> <!-- Input Size (WxHxC) -->
