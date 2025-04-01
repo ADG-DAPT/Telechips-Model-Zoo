@@ -86,3 +86,19 @@ You can also clisk on the model name in the table to download the binary that ca
 </table>
 
 ---
+
+## 📤 Output Format
+
+- The output of an SSDLite model is a set of bounding boxes with associated class predictions and confidence scores.
+- These raw outputs undergo post-processing, which includes:
+  - Applying sigmoid/softmax activations to normalize outputs
+  - Filtering boxes based on confidence thresholds
+  - Applying Non-Maximum Suppression (NMS) to remove overlapping boxes
+
+- The final post-processed output includes a list of detected objects, each containing:
+  - Class label
+  - Confidence score
+  - Bounding box coordinates (x_min, y_min, x_max, y_max)
+    
+- The maximum number of detections is 256
+
