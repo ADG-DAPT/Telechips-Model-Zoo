@@ -1,11 +1,11 @@
-# Classification Benchmark on TCC750X
-Below is benchmark data for various Image Classification models running on the TCC750X (N-Dolphin) platform.
-This table allows you to compare the performance of each neural network when executed on the board.
-Additionally, clicking on a model name will allow you to download the version formatted for execution on the device.
+# Classification Benchmark on TCC750x
+This section presents benchmark data for various image classification models running on the TCC750x (N-Dolphin).
+The following table allows you to compare the performance of each neural network when executed on the board.
+Click a model name to download the version formatted for execution on the device.
 
 - - -
 
-### 📊 How to Read the Table Below
+### 📊 Table Overview
 
 | Column                    | Description                                                                 |
 |--------------------------|-----------------------------------------------------------------------------|
@@ -14,9 +14,9 @@ Additionally, clicking on a model name will allow you to download the version fo
 | **Dataset**              | Evaluation dataset used (e.g., ImageNet validation set with 50,000 images)  |
 | **Input Size (WxHxC)**   | Model input resolution and channel configuration                            |
 | **Quantization Bit**     | Bit-depth used for quantization (e.g., INT8)                                |
-| **Binary Files Info.**   | Size of the compiled neural network binaries for TCC750X                    |
+| **Binary Files Info.**   | Size of the compiled neural network binaries for TCC750x                    |
 | **Inference Time (ms)**  | Measured on the N-Dolphin EVB using zero-padded input images                |
-| **Accuracy**             | Classification top-1 accuracy on ImageNet validation dataset (50,000 images)                    |
+| **Accuracy**             | Classification top-1 accuracy on the ImageNet validation dataset (50,000 images)                    |
 | **References**           | Link to the original GitHub repository of the model      
 
 - - -
