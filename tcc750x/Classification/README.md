@@ -1,22 +1,22 @@
-# Classification Benchmark on TCC750X
-Below is benchmark data for various Image Classification models running on the TCC750X (N-Dolphin) platform.
-This table allows you to compare the performance of each neural network when executed on the board.
-Additionally, clicking on a model name will allow you to download the version formatted for execution on the device.
+# Classification Benchmark on TCC750x
+The following is benchmark data for various image classification models running on the TCC750x (N-Dolphin).
+The following table allows you to compare the performance of each neural network when running on the board.
+You can also click the model name to download the version formatted for execution on the device.
 
 - - -
 
-### 📊 How to Read the Table Below
+### 📊 Table Overview
 
 | Column                    | Description                                                                 |
 |--------------------------|-----------------------------------------------------------------------------|
 | **Model**                | Name of the neural network model (clickable for download, if available)     |
 | **Framework**            | Deep learning framework used (e.g., PyTorch, TFLite, ONNX)                  |
-| **Dataset**              | Evaluation dataset used (e.g., ImageNet validation set with 50,000 images)  |
+| **Dataset**              | Evaluation dataset (e.g., ImageNet validation set with 50,000 images)  |
 | **Input Size (WxHxC)**   | Model input resolution and channel configuration                            |
 | **Quantization Bit**     | Bit-depth used for quantization (e.g., INT8)                                |
-| **Binary Files Info.**   | Size of the compiled neural network binaries for TCC750X                    |
-| **Inference Time (ms)**  | Measured on the N-Dolphin EVB using zero-padded input images                |
-| **Accuracy**             | Classification top-1 accuracy on ImageNet validation dataset (50,000 images)                    |
+| **Binary Files Info.**   | Size of the compiled neural network binaries for TCC750x                    |
+| **Inference Time (ms)**  | Inference time measured on the TCC750x EVB using zero-padded input images                |
+| **Accuracy**             | Classification top-1 accuracy on the ImageNet validation dataset (50,000 images)                    |
 | **References**           | Link to the original GitHub repository of the model      
 
 - - -
@@ -41,12 +41,12 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <th rowspan="2">Input Size (WxHxC)</th>
             <th rowspan="2">Quantization Bit</th>
             <th colspan="2">Binary Files Info.</th>
-            <th rowspan="2">Inference Time(ms)</th>
+            <th rowspan="2">Inference Time (ms)</th>
             <th colspan="2">Accuracy</th>
             <th rowspan="2">References</th>
         </tr>
         <tr>
-            <th>Weight & Bias Bin.(MB)</th>
+            <th>Weight and Bias Bin.(MB)</th>
             <th>Command Bin.(KB)</th>
             <th>FP32</th>
             <th>INT8</th>

@@ -1,17 +1,17 @@
-# YOLO Series Benchmark on TCC750X
+# YOLO Series Benchmark on TCC750x
 
-Below is benchmark data for various **YOLO (You Only Look Once)** object detection models running on the **TCC750X (N-Dolphin)** platform.  
+The following is benchmark data for various **YOLO (You Only Look Once)** object detection models that run on the **TCC750x (N-Dolphin)**.  
 YOLO models are widely known for their real-time performance and high accuracy in detecting multiple objects in a single pass over the image.  
-This benchmark covers multiple YOLO versions (v3 ~ v8, YOLOX, YOLOv6, etc.), providing insight into their speed and detection accuracy on embedded hardware.
+This benchmark covers multiple YOLO versions (v3 to v8, YOLOX, YOLOv6, and so on), providing insight into their speed and detection accuracy on embedded hardware.
 
-Clicking on a model name in the table allows you to download the binary, ready to run on the TCC750X board.
+You can also click on the model name in the table allows you to download the binary that can run on the TCC750x EVB. 
 
 ---
 
 
 ![YOLO Model Performance](../../../docs/image/yolo_performance.png)
 
-### 📊 How to Read the Table Below
+### 📊 Table Overview
 
 | Column                    | Description                                                                 |
 |--------------------------|-----------------------------------------------------------------------------|
@@ -20,9 +20,9 @@ Clicking on a model name in the table allows you to download the binary, ready t
 | **Dataset**              | Evaluation dataset (COCO val2017)                       |
 | **Input Size (WxHxC)**   | Model input resolution and channel configuration                            |
 | **Quantization Bit**     | Bit-depth used for quantization (e.g., INT8)                                |
-| **Binary Files Info.**   | Size of the compiled neural network binaries for TCC750X                    |
-| **Inference Time (ms)**  | Inference time measured on the N-Dolphin EVB using zero-padded input images.                               |
-| **mAP@50-95**             | mAP (mean Average Precision) is evaluated on the **COCO val2017 dataset** (5,000 images).                    |
+| **Binary Files Info.**   | Size of the compiled neural network binaries for TCC750x                    |
+| **Inference Time (ms)**  | Inference time measured on the N-Dolphin EVB by using zero-padded input images                             |
+| **mAP@50-95**             | Mean Average Precision (mAP) is evaluated on the **COCO val2017 dataset** (5,000 images)                    |
 | **References**           | Link to the original GitHub repository of the model                         |
 
 ---
@@ -56,8 +56,8 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <th th align="center" rowspan="2">References</th>
         </tr>
         <tr>
-            <th>Weight & Bias Bin.(MB)</th>
-            <th>Command Bin.(KB)</th>
+            <th>Weight and Bias Binary (MB)</th>
+            <th>Command Binary (KB)</th>
             <th>FP32</th>
             <th>INT8</th>
             <th>FP32</th>
@@ -67,7 +67,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
     <tbody>
         <tr>
             <td align="center" colspan="2"><a href="Yolo/yolov3/">YOLOv3</a></td> <!-- Model -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -98,7 +98,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
         <tr>
             <td align="center" rowspan="5" class="model">YOLOv5</td> <!-- Model -->
             <td align="center" class="variant"><a href="Yolo/yolov5/yolov5n/">n</a></td>
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -113,7 +113,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yolov5/yolov5s/">s</a></td> <!-- Model -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -127,7 +127,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yolov5/yolov5m/">m</a></td> <!-- Model -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -141,7 +141,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yolov5/yolov5l/">l</a></td> <!-- Model -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -155,7 +155,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yolov5/yolov5x/">x</a></td> <!-- Model -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -170,7 +170,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
         <tr>
             <td align="center" rowspan="4" class="model">YOLOv6</td> <!-- Model -->
             <td align="center" class="variant"><a href="Yolo/yolov6/yolov6n/">n</a></td> <!-- Models: Variant -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -185,7 +185,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yolov6/yolov6s/">s</a></td> <!-- Model -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -199,7 +199,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yolov6/yolov6m/">m</a></td> <!-- Model -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -213,7 +213,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yolov6/yolov6l/">l</a></td> <!-- Model -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -227,7 +227,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
         </tr>
         <tr>
             <td align="center" colspan="2"><a href="Yolo/yolov7/">YOLOv7</a></td> <!-- Model -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -243,7 +243,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
         <tr>
             <td align="center" rowspan="5" class="model">YOLOv8</td> <!-- Model -->
             <td align="center" class="variant"><a href="Yolo/yolov8/yolov8n/">n</a></td>
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -258,7 +258,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yolov8/yolov8s/">s</a></td> <!-- Model -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -272,7 +272,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yolov8/yolov8m/">m</a></td> <!-- Model -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -286,7 +286,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yolov8/yolov8l/">l</a></td> <!-- Model -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -300,7 +300,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yolov8/yolov8x/">x</a></td> <!-- Model -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -315,7 +315,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
         <tr>
             <td align="center" rowspan="6" class="model">YOLOX</td> <!-- Model -->
             <td align="center" class="variant"><a href="Yolo/yoloX/yolox_s/">s</a></td> <!-- Model -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -330,7 +330,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yoloX/yolox_m/">m</a></td> <!-- Model -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -344,7 +344,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yoloX/yolox_l/">l</a></td> <!-- Model -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -358,7 +358,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yoloX/yolox_x/">x</a></td> <!-- Model -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -372,7 +372,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yoloX/yolox_tiny/">tiny</a></td> <!-- Model -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">416x416x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -386,7 +386,7 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yoloX/yolox_nano/">nano</a></td> <!-- Model -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">416x416x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -404,14 +404,14 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
 
 ## 📤 Output Format
 
-- The output of YOLO models is a set of **bounding boxes** with associated class predictions and confidence scores.
+- The output of each YOLO model is a set of **bounding boxes** with associated class predictions and confidence scores.
 - Each detection includes the following information:
-  - **(x, y, w, h)**: Bounding box center coordinates, width, and height (normalized or absolute, depending on the model).
-  - **Objectness score**: Confidence that an object exists in the box.
-  - **Class probabilities**: Confidence scores for each class.
-  - **Final score**: Typically computed as `objectness × class probability`.
+  - **(x, y, w, h)**: Center coordinates, width, and height (normalized or absolute, depending on the model) of the bounding box
+  - **Objectness score**: Confidence that an object exists in the box
+  - **Class probabilities**: Confidence scores for each class
+  - **Final score**: Typically computed as `objectness × class probability`
 
-- After post-processing (e.g., **Non-Maximum Suppression**), the model returns a list of **top-k detected objects** in the image, each including:
+- After post-processing (e.g., **Non-maximum Suppression**), the model returns a list of **top-k detected objects** in the image, each including:
   - Bounding box coordinates
   - Class label
   - Confidence score

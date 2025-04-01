@@ -1,19 +1,19 @@
-# SSD-Lite Series Benchmark on TCC750X
+# SSD-Lite Series Benchmark on TCC750x
 
-Below is benchmark data for various **SSD-Lite (Single Shot MultiBox Detector Lite)** object detection models running on the **TCC750X (N-Dolphin)** platform.  
+The following is benchmark data for various **SSD-Lite (Single Shot MultiBox Detector Lite)** object detection models running on the **TCC750x (N-Dolphin)** platform.  
 SSD-Lite is a lightweight and efficient object detection model designed for mobile and embedded devices, offering a good trade-off between speed and accuracy.  
 It is a variant of the original SSD model with depthwise separable convolutions for reduced computation.
 
 This benchmark includes popular SSD-Lite models (e.g., MobileNet-SSD, MobileNetV2-SSD) and provides insight into their performance when quantized and deployed on embedded hardware.
 
-Clicking on a model name in the table allows you to download the binary, ready to run on the TCC750X board.
+You can also clisk on the model name in the table to download the binary that can run on the TCC750x EVB.
 
 
 ---
 
 <!-- ![YOLO Model Performance](../../docs/image/od_performance.png) -->
 
-### 📊 How to Read the Table Below
+### 📊 Table Overview
 
 | Column                    | Description                                                                 |
 |--------------------------|-----------------------------------------------------------------------------|
@@ -22,8 +22,8 @@ Clicking on a model name in the table allows you to download the binary, ready t
 | **Dataset**              | Evaluation dataset (VOC2007 test set)                       |
 | **Input Size (WxHxC)**   | Model input resolution and channel configuration                            |
 | **Quantization Bit**     | Bit-depth used for quantization (e.g., INT8)                                |
-| **Binary Files Info.**   | Size of the compiled neural network binaries for TCC750X                    |
-| **Inference Time (ms)**  | Inference time measured on the N-Dolphin EVB using zero-padded input images.                               |
+| **Binary Files Info.**   | Size of the compiled neural network binaries for TCC750x                    |
+| **Inference Time (ms)**  | Inference time measured on the TCC750x EVB using zero-padded input images.                               |
 | **mAP@50-95**             | mAP (mean Average Precision) is evaluated on the **VOC2007 test dataset** (4,952 images).                    |
 | **References**           | Link to the original GitHub repository of the model                         |
 

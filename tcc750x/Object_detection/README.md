@@ -1,12 +1,14 @@
-# Object Detection Benchmark on TCC750X
+# Object Detection Benchmark on TCC750x
 
-Below is benchmark data for various Object Detection models running on the **TCC750X (N-Dolphin)** platform.  
-This table allows you to compare the performance of each neural network when executed on the board.  
-Additionally, clicking on a model name will allow you to download the version formatted for execution on the device.
+The following is benchmark data for various Object Detection models running on the **TCC750x (N-Dolphin)** platform.  
+This table allows you to compare the performance of each neural network when running on the board.  
+You can also click on the model name to download the version formatted for running on the device.
 
 ---
 
-### 📊 How to Read the Table Below
+![YOLO Model Performance](../../docs/image/od_performance.png)
+
+### 📊 Table Overview
 
 | Column                    | Description                                                                 |
 |--------------------------|-----------------------------------------------------------------------------|
