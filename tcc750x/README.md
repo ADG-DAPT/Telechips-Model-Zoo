@@ -15,12 +15,12 @@ TCC750x - [Classification](./Classification/README.md), [Object_detection](./Obj
 ## **Getting Started**
 Follow the steps to run a model on a Telechips Evaluation Board (EVB).
 
-### 1. Clone the repository:
+### 1. Clone repository:
 <pre> <code>
 git clone git@github.com:ADG-DAPT/Telechips-Model-Zoo.git
 </code> </pre>
 
-### 2. Copy the desired model to the EVB:
+### 2. Copy desired model to EVB:
 Copy the entire model folder to your EVB. Each folder contains the necessary output files (.so, .bin, etc.).
 <pre> <code>
 scp -r [network_output_folder] root@192.168.0.100:/path/to/target/
@@ -35,7 +35,7 @@ yolov5m_quantized/
 ├── npu_cmd.bin       # Binary file of TCC750x NPU command code word
 └── quantized_network.bin # Binary file of Quantized weight and bias 
 </code> </pre>
-So you would run:
+then run:
 <pre> <code>
 scp -r yolov5m_quantized/ root@192.168.0.100:/home/root/
 </code> </pre>
