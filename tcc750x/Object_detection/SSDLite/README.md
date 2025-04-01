@@ -23,11 +23,7 @@ You can also clisk on the model name in the table to download the binary that ca
 | **Quantization Bit**     | Bit-depth used for quantization (e.g., INT8)                                |
 | **Binary Files Info.**   | Size of the compiled neural network binaries for TCC750x                    |
 | **Inference Time (ms)**  | Inference time measured on the TCC750x EVB using zero-padded input images.                               |
-<<<<<<< HEAD
-| **mAP**             | mAP (mean Average Precision) is evaluated on the **VOC2007 test dataset** (4,952 images).                    |
-=======
 | **mAP**             | mAP (mean Average Precision) is evaluated on the **COCO val2017** (5,000 images) or the **VOC2007 test dataset** (4,952 images).                    |
->>>>>>> 29b0cff407b90df1126d08877290cbf29ef36ba5
 | **References**           | Link to the original GitHub repository of the model                         |
 
 ---
@@ -43,11 +39,7 @@ You can also clisk on the model name in the table to download the binary that ca
             <th colspan="2">Binary Files Info.</th>
             <th rowspan="2">Inference Time(ms)</th>
             <th colspan="2">mAP@50-95</th>
-<<<<<<< HEAD
-            <th colspan="2">mAP@50</th>
-=======
             <th th align="center" colspan="2">mAP@50</th>
->>>>>>> 29b0cff407b90df1126d08877290cbf29ef36ba5
             <th rowspan="2">References</th>
         </tr>
         <tr>
@@ -71,13 +63,8 @@ You can also clisk on the model name in the table to download the binary that ca
             <td align="center">2.54</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.219</td> <!-- Evaluation Result: FP32 -->
             <td align="center">0.212</td> <!-- Evaluation Result: INT8 -->
-<<<<<<< HEAD
-            <td align="center">0.376</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">0.367</td> <!-- Evaluation Result: INT8 -->
-=======
             <td align="center">0.376</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
             <td align="center">0.367</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
->>>>>>> 29b0cff407b90df1126d08877290cbf29ef36ba5
             <td align="center"><a href="https://tfhub.dev/iree/lite-model/ssd_mobilenet_v1_100_320/fp32/nms/1">GitHub<a></td> <!-- References: Link -->
         </tr>
         <tr>
@@ -91,13 +78,8 @@ You can also clisk on the model name in the table to download the binary that ca
             <td align="center">2.08</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.661</td> <!-- Evaluation Result: FP32 -->
             <td align="center">0.651</td> <!-- Evaluation Result: INT8 -->
-<<<<<<< HEAD
-            <td align="center">-</td> <!-- Evaluation Result: FP32 -->
-            <td align="center">-</td> <!-- Evaluation Result: INT8 -->
-=======
             <td align="center">TODO</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
             <td align="center">TODO</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
->>>>>>> 29b0cff407b90df1126d08877290cbf29ef36ba5
             <td align="center"><a href="https://github.com/openedges/pytorch-ssd">GitHub<a></td> <!-- References: Link -->
         </tr>
     </tbody>
