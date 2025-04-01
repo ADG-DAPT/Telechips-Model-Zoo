@@ -2,7 +2,7 @@
 # **Telechips Model Zoo**
 <a href="https://www.telechips.com/" target="_blank">
     <img src="./docs/image/telechips_ml_zoo_image.png" alt="Telechips ML Zoo">
-</a>
+</a> 
 
 Welcome to the Telechips Model Zoo!!
 
