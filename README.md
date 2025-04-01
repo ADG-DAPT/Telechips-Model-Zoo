@@ -45,7 +45,7 @@ TCA2x: TBD – 상세 사양은 추후 공개될 예정입니다.
 
 ---
 
-## **2. Overview of Overall Model Zoo **
+## **2. Overview of Overall Model Zoo**
 The following table summarizes the neural network models supported on Telechips hardware.
 The name of each model links to its dedicated page with performance metrics and deployment instructions.
 <!--
