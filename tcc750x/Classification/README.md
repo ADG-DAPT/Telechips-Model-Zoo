@@ -11,7 +11,7 @@ You can also click the model name to download the version formatted for executio
 |--------------------------|-----------------------------------------------------------------------------|
 | **Model**                | Name of the neural network model (clickable for download, if available)     |
 | **Framework**            | Deep learning framework used (e.g., PyTorch, TFLite, ONNX)                  |
-| **Dataset**              | Evaluation dataset (e.g., ImageNet validation set with 50,000 images)  |
+| **Dataset**              | Evaluation dataset  |
 | **Input Size (WxHxC)**   | Model input resolution and channel configuration                            |
 | **Quantization Bit**     | Bit-depth used for quantization (e.g., INT8)                                |
 | **Binary Files Info.**   | Size of the compiled neural network binaries for TCC750x                    |
