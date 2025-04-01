@@ -1,7 +1,7 @@
 # Classification Benchmark on TCC750x
 This section describes benchmark data for various image classification models running on the TCC750x (N-Dolphin).
-The following table allows you to compare the performance of each neural network when executed on the board.
-Click a model name to download the version formatted for execution on the device.
+The following table allows you to compare the performance of each neural network when running on the board.
+You can also click the model name to download the version formatted for execution on the device.
 
 - - -
 
