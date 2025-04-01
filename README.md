@@ -61,9 +61,9 @@ Each model links to its dedicated page with performance metrics and deployment i
             <th rowspan="2" style="width:15%">Category</th>
             <th rowspan="2" colspan="2" style="width:25%">Model</th>
             <th rowspan="2" style="width:20%">Input Size(WxHxC)</th>
-            <th rowspan="2" style="width:20%">Inference Time(msec)</th>
+            <th rowspan="2" style="width:20%">Inference Time(ms)</th>
             <th rowspan="2" style="width:20%">Accuary/
-            COCO AP@[.50:.95]</th>
+            mAP@50-95</th>
         </tr>
     </thead>
     <tbody>
@@ -72,7 +72,7 @@ Each model links to its dedicated page with performance metrics and deployment i
             <td align="center" colspan="2">MobileNetv2-10</td> <!-- Model -->
             <td align="center">224x224x3</td> <!-- Input Size(WxHxC) -->
             <td align="center">1.31</td> <!-- Inference Time(msec): EVB -->
-            <td align="center">68.796</td> <!-- Accuary -->
+            <td align="center">0.6879</td> <!-- Accuary -->
         </tr>
         <tr>
             <td align="center" rowspan="26"><a href="tcc750x/Object_detection/README.md">Object detection</a></td> <!-- Category -->
