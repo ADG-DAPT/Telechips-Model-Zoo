@@ -1,11 +1,11 @@
 # MobileNet Benchmark on TCC750x
 
-This section describes benchmark data for various **MobileNet models** running on the **TCC750x (N-Dolphin)**.  
+The following is benchmark data for various **MobileNet models** running on the **TCC750x (N-Dolphin)**.  
 MobileNet is a family of lightweight and efficient convolutional neural networks optimized for **image classification** tasks, particularly on **embedded and mobile devices**.  
 <!-- This benchmark showcases how different MobileNet variants (e.g., V1, V2, V3) perform when compiled, quantized (INT8), and executed on the TCC750X board. -->
 
 All models are evaluated using the **ImageNet validation dataset** and compiled with the **tc-nn-toolkit**.  
-Click each model name in the table to download the binary ready for deployment on the device.
+You can also click on the model name in the table to download the binary ready for deployment on the device.
 
 ---
 
