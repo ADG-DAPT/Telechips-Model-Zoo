@@ -4,7 +4,7 @@ The following is benchmark data for various **YOLO (You Only Look Once)** object
 YOLO models are widely known for their real-time performance and high accuracy in detecting multiple objects in a single pass over the image.  
 This benchmark covers multiple YOLO versions (v3 to v8, YOLOX, YOLOv6, and so on), providing insight into their speed and detection accuracy on embedded hardware.
 
-You can also click on the model name in the table allows you to download the binary that can run on the TCC750x EVB. 
+You can also click on the model name in the table allows you to download the binary that can run on the TCC750x. 
 
 ---
 
