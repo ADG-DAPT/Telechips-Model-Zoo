@@ -17,7 +17,7 @@ git clone git@github.com:ADG-DAPT/Telechips-Model-Zoo.git
 </code> </pre>
 
 ### 2. Copy desired model to EVB:
-Copy the entire model folder (yolov5m) to the TCC750x EVB.
+Copy the entire model folder (yolov5m) to the TCC750x EVB.  
 You can either copy the folder as it is or rename it to yolov5m_quantized to match the format used in previously released neural network folders, as shown in the following example.  
 Each folder contains the necessary output files (.so, .bin, etc.).
 <pre> <code>
