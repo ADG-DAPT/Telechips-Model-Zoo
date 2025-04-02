@@ -20,7 +20,7 @@ You can also click on the model name in the table allows you to download the bin
 | **Dataset**              | Evaluation dataset                                                           |
 | **Input Size (WxHxC)**   | Model input resolution and channel configuration                            |
 | **Quantization Bit**     | Bit-depth used for quantization (e.g., INT8)                                |
-| **Binary Files Info.**   | Size of the compiled neural network binaries for TCC750x                    |
+| **Binary Files Information**   | Size of the compiled neural network binaries for TCC750x                    |
 | **Inference Time (ms)**  | Inference time measured on the N-Dolphin EVB by using zero-padded input images                             |
 | **mAP**             | Mean Average Precision (mAP) is evaluated on the **COCO val2017 dataset** (5,000 images)                    |
 | **References**           | Link to the original GitHub repository of the model                         |
@@ -49,9 +49,9 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
             <th th align="center" rowspan="2">Dataset</th>
             <th th align="center" rowspan="2">Input Size (WxHxC)</th>
             <th th align="center" rowspan="2">Quantization Bit</th>
-            <th th align="center" colspan="2">Binary Files Info.</th>
-            <th th align="center" rowspan="2">Inference Time(ms)</th>
-            <th th align="center" colspan="2">mAP@50-95</th>
+            <th th align="center" colspan="2">Binary Files Information</th>
+            <th th align="center" rowspan="2">Inference Time (ms)</th>
+            <th th align="center" colspan="2">mAP@50:95</th>
             <th th align="center" colspan="2">mAP@50</th>
             <th th align="center" rowspan="2">References</th>
         </tr>
@@ -408,13 +408,13 @@ Reference: 신경망 모델의 원본 GitHub 링크로 연결됩니다.
 - These raw outputs undergo post-processing, which includes:
   - Applying sigmoid/softmax activations to normalize outputs
   - Filtering boxes based on confidence thresholds
-  - Applying Non-Maximum Suppression (NMS) to remove overlapping boxes
+  - Applying Non-maximum Suppression (NMS) to remove overlapping boxes
 
 - The final post-processed output includes a list of detected objects, each containing:
   - Class label
   - Confidence score
-  - Bounding box coordinates (x_min, y_min, x_max, y_max)
+  - Bounding box coordinates (x_min, y_min, x_max, and y_max)
     
 - The maximum number of detections is 256
 
-- The number and format of output tensors may vary slightly depending on the YOLO version (e.g., v5, v6, v8, YOLOX), but the core structure remains similar.
+- The number and format of output tensors may vary slightly depending on the YOLO version (e.g., v5, v6, v8, and YOLOX), but the core structure remains similar.
