@@ -195,7 +195,7 @@ The name of each model links to its dedicated page with performance metrics and 
         <tr>
             <td align="center" rowspan="6" class="model">YOLOX</td> <!-- Models -->
             <td align="center" class="variant">s</td> <!-- Models: Variant -->
-            <td align="center">608x608x3</td> <!-- Input Size (WxHxC) -->
+            <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">26.29</td> <!-- Inference Time (msec): EVB -->
             <td align="center">0.467</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
@@ -235,7 +235,7 @@ The name of each model links to its dedicated page with performance metrics and 
 ---
 
 ## **3. History**
-### Rev. 0.1.0: 2025-03-31
+### Rev. 0.1.0: 2025-04-03
 - Preliminary version release
 
 ---
