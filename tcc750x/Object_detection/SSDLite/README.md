@@ -2,11 +2,11 @@
 
 The following is benchmark data for various **SSD-Lite (Single Shot MultiBox Detector Lite)** object detection models running on the **TCC750x** platform.  
 SSD-Lite is a lightweight and efficient object detection model designed for mobile and embedded devices, offering a good trade-off between speed and accuracy.  
-It is a variant of the original SSD model with depthwise separable convolutions for reduced computation.
+SSD-Lite is a variant of the original SSD model with depthwise separable convolutions for reduced computation.
 
-This benchmark includes popular SSD-Lite models (e.g., MobileNet-SSD, MobileNetV2-SSD) and provides insight into their performance when quantized and deployed on TCC750x.
+This benchmark includes popular SSD-Lite models (e.g., MobileNet-SSD and MobileNetV2-SSD) and provides insight into their performance when quantized and deployed on TCC750x.
 
-You can also clisk on the model name in the table to download the binary that can run on the TCC750x.
+You can also click on the model name in the table to download the binary that can run on the TCC750x.
 
 ---
 
@@ -21,7 +21,7 @@ You can also clisk on the model name in the table to download the binary that ca
 | **Dataset**              | Evaluation dataset                                                           |
 | **Input Size (WxHxC)**   | Model input resolution and channel configuration                            |
 | **Quantization Bit**     | Bit-depth used for quantization (e.g., INT8)                                |
-| **Binary Files Info.**   | Size of the compiled neural network binaries for TCC750x                    |
+| **Binary Files Information**   | Size of the compiled neural network binaries for TCC750x                    |
 | **Inference Time (ms)**  | Inference time measured on the TCC750x EVB using zero-padded input images.                               |
 | **mAP**             | Mean Average Precision (mAP) is evaluated on the **COCO val2017** (5,000 images) or the **VOC2007 test dataset** (4,952 images)                    |
 | **References**           | Link to the original GitHub repository of the model                         |
@@ -36,15 +36,15 @@ You can also clisk on the model name in the table to download the binary that ca
             <th rowspan="2">Dataset</th>
             <th rowspan="2">Input Size (WxHxC)</th>
             <th rowspan="2">Quantization Bit</th>
-            <th colspan="2">Binary Files Info.</th>
-            <th rowspan="2">Inference Time(ms)</th>
-            <th colspan="2">mAP@50-95</th>
+            <th colspan="2">Binary Files Information</th>
+            <th rowspan="2">Inference Time (ms)</th>
+            <th colspan="2">mAP@50:95</th>
             <th th align="center" colspan="2">mAP@50</th>
             <th rowspan="2">References</th>
         </tr>
         <tr>
-            <th>Weight & Bias Bin.(MB)</th>
-            <th>Command Bin.(KB)</th>
+            <th>Weight & Bias Binary (MB)</th>
+            <th>Command Binary (KB)</th>
             <th>FP32</th>
             <th>INT8</th>
             <th>FP32</th>
@@ -98,7 +98,7 @@ You can also clisk on the model name in the table to download the binary that ca
 - The final post-processed output includes a list of detected objects, each containing:
   - Class label
   - Confidence score
-  - Bounding box coordinates (x_min, y_min, x_max, y_max)
+  - Bounding box coordinates (x_min, y_min, x_max, and y_max)
     
 - The maximum number of detections is 256
 
