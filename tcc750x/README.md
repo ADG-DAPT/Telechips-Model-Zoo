@@ -9,7 +9,7 @@ TCC750x - [Classification](./Classification/README.md), [Object_detection](./Obj
 ---
 
 ## **Getting Started**
-Follow the steps to run a model on the TCC750x EVB.
+Follow the steps to run a neural network model provided by Telechips Model Zoo on the TCC750x Evaluation Board (EVB).
 
 ### 1. Clone repository:
 <pre> <code>
