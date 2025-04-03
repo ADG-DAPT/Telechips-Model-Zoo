@@ -14,7 +14,7 @@ You can also click the model name to download the version formatted for executio
 | **Dataset**              | Evaluation dataset  |
 | **Input Size (WxHxC)**   | Model input resolution and channel configuration                            |
 | **Quantization Bit**     | Bit-depth used for quantization (e.g., INT8)                                |
-| **Binary Files Info.**   | Size of the compiled neural network binaries for TCC750x                    |
+| **Binary Files Information**   | Size of the compiled neural network binaries for TCC750x                    |
 | **Inference Time (ms)**  | Inference time measured on the TCC750x EVB using zero-padded input images                |
 | **Accuracy**             | Classification top-1 accuracy on the ImageNet validation dataset (50,000 images)                    |
 | **References**           | Link to the original GitHub repository of the model      
@@ -29,14 +29,14 @@ You can also click the model name to download the version formatted for executio
             <th rowspan="2">DataSet</th>
             <th rowspan="2">Input Size (WxHxC)</th>
             <th rowspan="2">Quantization Bit</th>
-            <th colspan="2">Binary Files Info.</th>
+            <th colspan="2">Binary Files Information</th>
             <th rowspan="2">Inference Time (ms)</th>
             <th colspan="2">Accuracy</th>
             <th rowspan="2">References</th>
         </tr>
         <tr>
-            <th>Weight and Bias Bin.(MB)</th>
-            <th>Command Bin.(KB)</th>
+            <th>Weight and Bias Binary (MB)</th>
+            <th>Command Binary (KB)</th>
             <th>FP32</th>
             <th>INT8</th>
         </tr>
