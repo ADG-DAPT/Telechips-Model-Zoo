@@ -17,7 +17,7 @@ You can also click on the model name to download the version formatted for runni
 | **Dataset**              | Evaluation dataset                                                           |
 | **Input Size (WxHxC)**   | Model input resolution and channel configuration                            |
 | **Quantization Bit**     | Bit-depth used for quantization (e.g., INT8)                                |
-| **Binary Files Info.**   | Size of the compiled neural network binaries for TCC750X                    |
+| **Binary Files Information**   | Size of the compiled neural network binaries for TCC750X                    |
 | **Inference Time (ms)**  | Inference time measured on the TCC750x EVB using zero-padded input images.                               |
 | **mAP**             | Mean Average Precision (mAP) is evaluated on the **COCO val2017 dataset** (5,000 images) or the **VOC2007 test dataset** (4,952 images)                    |
 | **References**           | Link to the original GitHub repository of the model                         |
@@ -31,14 +31,14 @@ You can also click on the model name to download the version formatted for runni
             <th rowspan="2">Dataset</th>
             <th rowspan="2">Input Size (WxHxC)</th>
             <th rowspan="2">Quantization Bit</th>
-            <th colspan="2">Binary Files Info.</th>
-            <th rowspan="2">Inference Time(ms)</th>
+            <th colspan="2">Binary Files Information</th>
+            <th rowspan="2">Inference Time (ms)</th>
             <th colspan="2">mAP@50</th>
             <th rowspan="2">References</th>
         </tr>
         <tr>
-            <th>Weight & Bias Bin.(MB)</th>
-            <th>Command Bin.(KB)</th>
+            <th>Weight & Bias Binary (MB)</th>
+            <th>Command Binary (KB)</th>
             <th>FP32</th>
             <th>INT8</th>
         </tr>
@@ -74,7 +74,7 @@ You can also click on the model name to download the version formatted for runni
         <tr>
             <td align="center" rowspan="1" class="model"><a href="Yolo/yolov3/">YOLOv3</a></td> <!-- Model -->
             <td align="center" class="variant"><a href="Yolo/yolov3/yolov3_640">-</a></td>
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -102,7 +102,7 @@ You can also click on the model name to download the version formatted for runni
         <tr>
             <td align="center" rowspan="5" class="model"><a href="Yolo/yolov5/">YOLOv5</a></td> <!-- Model -->
             <td align="center" class="variant"><a href="Yolo/yolov5/yolov5n/">n</a></td>
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -115,7 +115,7 @@ You can also click on the model name to download the version formatted for runni
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yolov5/yolov5s/">s</a></td> <!-- Model -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -127,7 +127,7 @@ You can also click on the model name to download the version formatted for runni
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yolov5/yolov5m/">m</a></td> <!-- Model -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -139,7 +139,7 @@ You can also click on the model name to download the version formatted for runni
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yolov5/yolov5l/">l</a></td> <!-- Model -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -151,7 +151,7 @@ You can also click on the model name to download the version formatted for runni
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yolov5/yolov5x/">x</a></td> <!-- Model -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -164,7 +164,7 @@ You can also click on the model name to download the version formatted for runni
         <tr>
             <td align="center" rowspan="4" class="model"><a href="Yolo/yolov6/">YOLOv6</a></td> <!-- Model -->
             <td align="center" class="variant"><a href="Yolo/yolov6/yolov6n/">n</a></td> <!-- Models: Variant -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -177,7 +177,7 @@ You can also click on the model name to download the version formatted for runni
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yolov6/yolov6s/">s</a></td> <!-- Model -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -189,7 +189,7 @@ You can also click on the model name to download the version formatted for runni
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yolov6/yolov6m/">m</a></td> <!-- Model -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -201,7 +201,7 @@ You can also click on the model name to download the version formatted for runni
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yolov6/yolov6l/">l</a></td> <!-- Model -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -214,7 +214,7 @@ You can also click on the model name to download the version formatted for runni
         <tr>
             <td align="center" rowspan="1" class="model"><a href="Yolo/yolov7/">YOLOv7</a></td> <!-- Model -->
             <td align="center" class="variant"><a href="Yolo/yolov7/yolov7_640">-</a></td>
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -228,7 +228,7 @@ You can also click on the model name to download the version formatted for runni
         <tr>
             <td align="center" rowspan="5" class="model"><a href="Yolo/yolov8/">YOLOv8</a></td> <!-- Model -->
             <td align="center" class="variant"><a href="Yolo/yolov8/yolov8n/">n</a></td>
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -241,7 +241,7 @@ You can also click on the model name to download the version formatted for runni
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yolov8/yolov8s/">s</a></td> <!-- Model -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -253,7 +253,7 @@ You can also click on the model name to download the version formatted for runni
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yolov8/yolov8m/">m</a></td> <!-- Model -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -265,7 +265,7 @@ You can also click on the model name to download the version formatted for runni
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yolov8/yolov8l/">l</a></td> <!-- Model -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -277,7 +277,7 @@ You can also click on the model name to download the version formatted for runni
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yolov8/yolov8x/">x</a></td> <!-- Model -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -290,7 +290,7 @@ You can also click on the model name to download the version formatted for runni
         <tr>
             <td align="center" rowspan="6" class="model"><a href="Yolo/yoloX/">YOLOX</a></td> <!-- Model -->
             <td align="center" class="variant"><a href="Yolo/yoloX/yolox_s/">s</a></td> <!-- Model -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -315,7 +315,7 @@ You can also click on the model name to download the version formatted for runni
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yoloX/yolox_l/">l</a></td> <!-- Model -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -327,7 +327,7 @@ You can also click on the model name to download the version formatted for runni
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yoloX/yolox_x/">x</a></td> <!-- Model -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -339,7 +339,7 @@ You can also click on the model name to download the version formatted for runni
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yoloX/yolox_tiny/">tiny</a></td> <!-- Model -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">416x416x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
@@ -351,7 +351,7 @@ You can also click on the model name to download the version formatted for runni
         </tr>
         <tr>
             <td align="center" class="variant"><a href="Yolo/yoloX/yolox_nano/">nano</a></td> <!-- Model -->
-            <td align="center">Pytorch</td> <!-- Framework -->
+            <td align="center">PyTorch</td> <!-- Framework -->
             <td align="center">COCO</td> <!-- Detections/DataSet -->
             <td align="center">416x416x3</td> <!-- Input Size (WxHxC) -->
             <td align="center">INT8</td> <!-- Quantization Bit -->
