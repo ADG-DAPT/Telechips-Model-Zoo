@@ -241,4 +241,4 @@ The name of each model links to its dedicated page with performance metrics and 
 ---
 
 ## **4. To do**
-- Telechips proprietary neural network upload scheduled (~June 30)
+- Telechips proprietary neural network upload scheduled (by June 30)
