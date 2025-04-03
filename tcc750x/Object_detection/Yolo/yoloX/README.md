@@ -8,7 +8,7 @@
             <th th align="center" rowspan="2">Dataset</th>
             <th th align="center" rowspan="2">Input Size (WxHxC)</th>
             <th th align="center" rowspan="2">Quantization Bit</th>
-            <th th align="center" colspan="2">Binary Files Info.</th>
+            <th th align="center" colspan="2">Binary Files Information</th>
             <th th align="center" rowspan="2">Inference Time (ms)</th>
             <th th align="center" colspan="2">mAP@50:95</th>
             <th th align="center" colspan="2">mAP@50</th>
