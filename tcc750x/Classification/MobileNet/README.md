@@ -54,7 +54,7 @@ You can also click on the model name in the table to download the binary ready f
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">4</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">44</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
-            <td align="center">1.31</td> <!-- Inference Time(msec): EVB -->
+            <td align="center">1.24</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.6984</td> <!-- Evaluation Result: FP32 -->
             <td align="center">0.6879</td> <!-- Evaluation Result: INT8 -->
             <td align="center"><a href="https://github.com/onnx/models/tree/main/validated/vision/classification/mobilenet">GitHub<a></td> <!-- References: Link -->

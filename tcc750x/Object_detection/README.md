@@ -53,7 +53,7 @@ You can also click on the model name to download the version formatted for runni
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">8</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">44</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
-            <td align="center">2.54</td> <!-- Inference Time(msec): EVB -->
+            <td align="center">2.46</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.376</td> <!-- Evaluation Result: FP32 -->
             <td align="center">0.367</td> <!-- Evaluation Result: INT8 -->
             <td align="center"><a href="https://tfhub.dev/iree/lite-model/ssd_mobilenet_v1_100_320/fp32/nms/1">GitHub<a></td> <!-- References: Link -->
@@ -66,7 +66,7 @@ You can also click on the model name to download the version formatted for runni
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">4</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">56</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
-            <td align="center">2.08</td> <!-- Inference Time(msec): EVB -->
+            <td align="center">2.00</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.661</td> <!-- Evaluation Result: FP32 -->
             <td align="center">0.651</td> <!-- Evaluation Result: INT8 -->
             <td align="center"><a href="https://github.com/openedges/pytorch-ssd">GitHub<a></td> <!-- References: Link -->
@@ -80,7 +80,7 @@ You can also click on the model name to download the version formatted for runni
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">60</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">232</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
-            <td align="center">66.3</td> <!-- Inference Time(msec): EVB -->
+            <td align="center">63.60</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.630</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
             <td align="center">0.598</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
             <td align="center"><a href="https://github.com/ultralytics/yolov3">GitHub<a></td> <!-- References: Link -->
@@ -94,7 +94,7 @@ You can also click on the model name to download the version formatted for runni
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">62</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">308</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
-            <td align="center">60.14</td> <!-- Inference Time(msec): EVB -->
+            <td align="center">57.50</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.748</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
             <td align="center">0.735</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
             <td align="center"><a href="https://github.com/AlexeyAB/darknet/blob/master/cfg/yolov4.cfg">Github<a></td> <!-- References: Link -->
@@ -108,7 +108,7 @@ You can also click on the model name to download the version formatted for runni
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">2</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">80</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
-            <td align="center">9.38</td> <!-- Inference Time(msec): EVB -->
+            <td align="center">8.97</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.418</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
             <td align="center">0.383</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
             <td align="center" rowspan="5"><a href="https://github.com/ultralytics/yolov5">GitHub<a></td> <!-- References: Link -->
@@ -121,7 +121,7 @@ You can also click on the model name to download the version formatted for runni
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">7</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">144</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
-            <td align="center">14.7</td> <!-- Inference Time(msec): EVB -->
+            <td align="center">13.74</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.533</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
             <td align="center">0.509</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
@@ -133,7 +133,7 @@ You can also click on the model name to download the version formatted for runni
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">21</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">188</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
-            <td align="center">34.9</td> <!-- Inference Time(msec): EVB -->
+            <td align="center">32.96</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.610</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
             <td align="center">0.584</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
@@ -145,7 +145,7 @@ You can also click on the model name to download the version formatted for runni
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">45</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">308</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
-            <td align="center">55.17</td> <!-- Inference Time(msec): EVB -->
+            <td align="center">54.01</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.644</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
             <td align="center">0.619</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
@@ -157,7 +157,7 @@ You can also click on the model name to download the version formatted for runni
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">83</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">460</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
-            <td align="center">107.53</td> <!-- Inference Time(msec): EVB -->
+            <td align="center">104.11</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.660</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
             <td align="center">0.643</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
@@ -170,7 +170,7 @@ You can also click on the model name to download the version formatted for runni
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">5</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">40</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
-            <td align="center">6.75</td> <!-- Inference Time(msec): EVB -->
+            <td align="center">6.50</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.514</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
             <td align="center">0.493</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
             <td align="center" rowspan="4"><a href="https://github.com/meituan/YOLOv6">GitHub<a></td> <!-- References: Link -->
@@ -183,7 +183,7 @@ You can also click on the model name to download the version formatted for runni
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">18</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">84</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
-            <td align="center">20.96</td> <!-- Inference Time(msec): EVB -->
+            <td align="center">20.43</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.597</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
             <td align="center">0.552</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
@@ -195,7 +195,7 @@ You can also click on the model name to download the version formatted for runni
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">34</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">116</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
-            <td align="center">37.96</td> <!-- Inference Time(msec): EVB -->
+            <td align="center">36.80</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.648</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
             <td align="center">0.643</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
@@ -207,7 +207,7 @@ You can also click on the model name to download the version formatted for runni
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">57</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">240</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
-            <td align="center">69.06</td> <!-- Inference Time(msec): EVB -->
+            <td align="center">67.35</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.683</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
             <td align="center">0.673</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
@@ -220,7 +220,7 @@ You can also click on the model name to download the version formatted for runni
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">36</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">244</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
-            <td align="center">55.0</td> <!-- Inference Time(msec): EVB -->
+            <td align="center">50.21</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.662</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
             <td align="center">0.648</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
             <td align="center"><a href="https://github.com/WongKinYiu/yolov7">GitHub<a></td> <!-- References: Link -->
@@ -234,7 +234,7 @@ You can also click on the model name to download the version formatted for runni
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">4</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">72</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
-            <td align="center">8.63</td> <!-- Inference Time(msec): EVB -->
+            <td align="center">8.09</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.501</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
             <td align="center">0.488</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
             <td align="center" rowspan="5"><a href="https://github.com/ultralytics/ultralytics">GitHub<a></td> <!-- References: Link -->
@@ -247,7 +247,7 @@ You can also click on the model name to download the version formatted for runni
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">11</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">92</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
-            <td align="center">16.17</td> <!-- Inference Time(msec): EVB -->
+            <td align="center">15.49</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.586</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
             <td align="center">0.576</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
@@ -259,7 +259,7 @@ You can also click on the model name to download the version formatted for runni
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">25</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">156</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
-            <td align="center">45.35</td> <!-- Inference Time(msec): EVB -->
+            <td align="center">39.31</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.644</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
             <td align="center">0.632</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
@@ -271,7 +271,7 @@ You can also click on the model name to download the version formatted for runni
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">42</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">248</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
-            <td align="center">69.16</td> <!-- Inference Time(msec): EVB -->
+            <td align="center">67.04</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.670</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
             <td align="center">0.654</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
@@ -283,7 +283,7 @@ You can also click on the model name to download the version formatted for runni
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">66</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">436</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
-            <td align="center">118.06</td> <!-- Inference Time(msec): EVB -->
+            <td align="center">113.31</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.681</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
             <td align="center">0.664</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
@@ -296,7 +296,7 @@ You can also click on the model name to download the version formatted for runni
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">9</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">188</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
-            <td align="center">26.29</td> <!-- Inference Time(msec): EVB -->
+            <td align="center">TBD</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.473</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
             <td align="center">0.467</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
             <td align="center" rowspan="6"><a href="https://github.com/Megvii-BaseDetection/YOLOX">GitHub<a></td> <!-- References: Link -->
@@ -309,7 +309,7 @@ You can also click on the model name to download the version formatted for runni
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">25</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">236</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
-            <td align="center">52.79</td> <!-- Inference Time(msec): EVB -->
+            <td align="center">49.35</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.542</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
             <td align="center">0.536</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
@@ -321,7 +321,7 @@ You can also click on the model name to download the version formatted for runni
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">52</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">372</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
-            <td align="center">79.72</td> <!-- Inference Time(msec): EVB -->
+            <td align="center">77.11</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.572</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
             <td align="center">0.565</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
@@ -333,7 +333,7 @@ You can also click on the model name to download the version formatted for runni
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">95</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">560</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
-            <td align="center">141.12</td> <!-- Inference Time(msec): EVB -->
+            <td align="center">TBD</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.591</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
             <td align="center">0.583</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
@@ -345,7 +345,7 @@ You can also click on the model name to download the version formatted for runni
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">5</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">64</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
-            <td align="center">9.26</td> <!-- Inference Time(msec): EVB -->
+            <td align="center">TBD</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.411</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
             <td align="center">0.401</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
@@ -357,7 +357,7 @@ You can also click on the model name to download the version formatted for runni
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">1</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">64</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
-            <td align="center">6.71</td> <!-- Inference Time(msec): EVB -->
+            <td align="center">6.09</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.326</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
             <td align="center">0.112</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>

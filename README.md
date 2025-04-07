@@ -71,162 +71,162 @@ The name of each model links to its dedicated page with performance metrics and 
             <td align="center" rowspan="1"><a href="tcc750x/Classification/README.md">Classification</a></td> <!-- Category -->
             <td align="center" colspan="2">mobileNetv2-10</td> <!-- Model -->
             <td align="center">224x224x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">1.31</td> <!-- Inference Time (msec): EVB -->
+            <td align="center">1.24</td> <!-- Inference Time (msec): EVB -->
             <td align="center">0.687</td> <!-- Accuracy -->
         </tr>
         <tr>
             <td align="center" rowspan="26"><a href="tcc750x/Object_detection/README.md">Object detection</a></td> <!-- Category -->
             <td align="center" colspan="2">mb1_SSD_Lite</td> <!-- Model -->
             <td align="center">320x320x3</td> <!-- Input Size(WxHxC) -->
-            <td align="center">2.54</td> <!-- Inference Time(msec): EVB -->
+            <td align="center">2.46</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.367</td> <!-- COCO AP@[.50:.95] -->
         </tr>
         <tr>
             <td align="center" colspan="2">mb2_SSD_Lite</td> <!-- Model -->
             <td align="center">300x300x3</td> <!-- Input Size(WxHxC) -->
-            <td align="center">2.08</td> <!-- Inference Time(msec): EVB -->
+            <td align="center">2.00</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.651</td> <!-- Evaluation Result: INT8 -->
         </tr>
         <tr>
             <td align="center" colspan="2">YOLOv3</td> <!-- Model -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">66.3</td> <!-- Inference Time (msec): EVB -->
+            <td align="center">63.60</td> <!-- Inference Time (msec): EVB -->
             <td align="center">0.598</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" colspan="2">YOLOv4</td> <!-- Model -->
             <td align="center">608x608x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">60.14</td> <!-- Inference Time (msec): EVB -->
+            <td align="center">57.50</td> <!-- Inference Time (msec): EVB -->
             <td align="center">0.735</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" rowspan="5" class="model">YOLOv5</td> <!-- Models -->
             <td align="center" class="variant">n</td> <!-- Models: Variant -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">9.38</td> <!-- Inference Time (msec): EVB -->
+            <td align="center">8.97</td> <!-- Inference Time (msec): EVB -->
             <td align="center">0.383</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant">s</td> <!-- Models: Variant -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">14.7</td> <!-- Inference Time (msec): EVB -->
+            <td align="center">13.74</td> <!-- Inference Time (msec): EVB -->
             <td align="center">0.509</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant">m</td> <!-- Models: Variant -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">34.9</td> <!-- Inference Time (msec): EVB -->
+            <td align="center">32.96</td> <!-- Inference Time (msec): EVB -->
             <td align="center">0.584</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant">l</td> <!-- Models: Variant -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">55.17</td> <!-- Inference Time (msec): EVB -->
+            <td align="center">54.01</td> <!-- Inference Time (msec): EVB -->
             <td align="center">0.619</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant">x</td> <!-- Models: Variant -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">107.53</td> <!-- Inference Time (msec): EVB -->
+            <td align="center">104.11</td> <!-- Inference Time (msec): EVB -->
             <td align="center">0.643</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" rowspan="4" class="model">YOLOv6</td> <!-- Models -->
             <td align="center" class="variant">n</td> <!-- Models: Variant -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">6.75</td> <!-- Inference Time (msec): EVB -->
+            <td align="center">6.50</td> <!-- Inference Time (msec): EVB -->
             <td align="center">0.493</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant">s</td> <!-- Models: Variant -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">20.96</td> <!-- Inference Time (msec): EVB -->
+            <td align="center">20.43</td> <!-- Inference Time (msec): EVB -->
             <td align="center">0.552</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant">m</td> <!-- Models: Variant -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">37.96</td> <!-- Inference Time (msec): EVB -->
+            <td align="center">36.80</td> <!-- Inference Time (msec): EVB -->
             <td align="center">0.643</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant">l</td> <!-- Models: Variant -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">69.06</td> <!-- Inference Time (msec): EVB -->
+            <td align="center">67.35</td> <!-- Inference Time (msec): EVB -->
             <td align="center">0.673</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" colspan="2">YOLOv7</td> <!-- Model -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">55.0</td> <!-- Inference Time (msec): EVB -->
+            <td align="center">50.21</td> <!-- Inference Time (msec): EVB -->
             <td align="center">0.648</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" rowspan="5" class="model">YOLOv8</td> <!-- Models -->
             <td align="center" class="variant">n</td> <!-- Models: Variant -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">8.63</td> <!-- Inference Time (msec): EVB -->
+            <td align="center">8.09</td> <!-- Inference Time (msec): EVB -->
             <td align="center">0.488</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant">s</td> <!-- Models: Variant -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">16.17</td> <!-- Inference Time (msec): EVB -->
+            <td align="center">15.49</td> <!-- Inference Time (msec): EVB -->
             <td align="center">0.576</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant">m</td> <!-- Models: Variant -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">45.35</td> <!-- Inference Time (msec): EVB -->
+            <td align="center">39.31</td> <!-- Inference Time (msec): EVB -->
             <td align="center">0.632</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant">l</td> <!-- Models: Variant -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">69.16</td> <!-- Inference Time (msec): EVB -->
+            <td align="center">67.04</td> <!-- Inference Time (msec): EVB -->
             <td align="center">0.654</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant">x</td> <!-- Models: Variant -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">118.06</td> <!-- Inference Time (msec): EVB -->
+            <td align="center">113.31</td> <!-- Inference Time (msec): EVB -->
             <td align="center">0.664</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" rowspan="6" class="model">YOLOX</td> <!-- Models -->
             <td align="center" class="variant">s</td> <!-- Models: Variant -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">26.29</td> <!-- Inference Time (msec): EVB -->
+            <td align="center">TBD</td> <!-- Inference Time (msec): EVB -->
             <td align="center">0.467</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant">m</td> <!-- Models: Variant -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">52.79</td> <!-- Inference Time (msec): EVB -->
+            <td align="center">49.35</td> <!-- Inference Time (msec): EVB -->
             <td align="center">0.536</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant">l</td> <!-- Models: Variant -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">79.72</td> <!-- Inference Time (msec): EVB -->
+            <td align="center">77.11</td> <!-- Inference Time (msec): EVB -->
             <td align="center">0.565</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant">x</td> <!-- Models: Variant -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">141.12</td> <!-- Inference Time (ms/img) -->
+            <td align="center">TBD</td> <!-- Inference Time (ms/img) -->
             <td align="center">0.583</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant">tiny</td> <!-- Models: Variant -->
             <td align="center">416x416x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">9.26</td> <!-- Inference Time (ms/img) -->
+            <td align="center">TBD</td> <!-- Inference Time (ms/img) -->
             <td align="center">0.401</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant">nano</td> <!-- Models: Variant -->
             <td align="center">416x416x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">6.71</td> <!-- Inference Time (ms/img) -->
+            <td align="center">6.09</td> <!-- Inference Time (ms/img) -->
             <td align="center">0.112</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
     </tbody>

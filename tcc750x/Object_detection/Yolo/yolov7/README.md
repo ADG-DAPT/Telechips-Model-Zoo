@@ -32,7 +32,7 @@
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">36</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">244</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
-            <td align="center">55.0</td> <!-- Inference Time(msec): EVB -->
+            <td align="center">50.21</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.479</td> <!-- Evaluation Result: FP32 IoU=0.50:0.95 -->
             <td align="center">0.421</td> <!-- Evaluation Result: INT8 IoU=0.50:0.95 -->
             <td align="center">0.662</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
