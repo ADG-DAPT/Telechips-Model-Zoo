@@ -2,8 +2,6 @@
 
 ![N-Dolphin Image](../docs/image/n_dolphin.png)
 
-This folder contains benchmark data for neural networks supported by the TCC750x, as well as neural network models that can be run on the TCC750x EVB.
-
 TCC750x - [Classification](./Classification/README.md), [Object_detection](./Object_detection/README.md)
 
 ---
