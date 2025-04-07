@@ -196,7 +196,7 @@ The name of each model links to its dedicated page with performance metrics and 
             <td align="center" rowspan="6" class="model">YOLOX</td> <!-- Models -->
             <td align="center" class="variant">s</td> <!-- Models: Variant -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">TBD</td> <!-- Inference Time (msec): EVB -->
+            <td align="center">24.52</td> <!-- Inference Time (msec): EVB -->
             <td align="center">0.467</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
@@ -214,13 +214,13 @@ The name of each model links to its dedicated page with performance metrics and 
         <tr>
             <td align="center" class="variant">x</td> <!-- Models: Variant -->
             <td align="center">640x640x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">TBD</td> <!-- Inference Time (ms/img) -->
+            <td align="center">136.51</td> <!-- Inference Time (ms/img) -->
             <td align="center">0.583</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
             <td align="center" class="variant">tiny</td> <!-- Models: Variant -->
             <td align="center">416x416x3</td> <!-- Input Size (WxHxC) -->
-            <td align="center">TBD</td> <!-- Inference Time (ms/img) -->
+            <td align="center">8.53</td> <!-- Inference Time (ms/img) -->
             <td align="center">0.401</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
         <tr>
@@ -235,7 +235,7 @@ The name of each model links to its dedicated page with performance metrics and 
 ---
 
 ## **3. History**
-### Rev. 0.1.0: 2025-04-03
+### Rev. 0.1.0: 2025-04-07
 - Preliminary version release
 
 ---

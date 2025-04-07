@@ -296,7 +296,7 @@ You can also click on the model name to download the version formatted for runni
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">9</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">188</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
-            <td align="center">TBD</td> <!-- Inference Time(msec): EVB -->
+            <td align="center">24.52</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.473</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
             <td align="center">0.467</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
             <td align="center" rowspan="6"><a href="https://github.com/Megvii-BaseDetection/YOLOX">GitHub<a></td> <!-- References: Link -->
@@ -333,7 +333,7 @@ You can also click on the model name to download the version formatted for runni
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">95</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">560</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
-            <td align="center">TBD</td> <!-- Inference Time(msec): EVB -->
+            <td align="center">136.51</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.591</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
             <td align="center">0.583</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
@@ -345,7 +345,7 @@ You can also click on the model name to download the version formatted for runni
             <td align="center">INT8</td> <!-- Quantization Bit -->
             <td align="center">5</td> <!-- Compiled NN Information: Weight, Bias Binary Size(MB) -->
             <td align="center">64</td> <!-- Compiled NN Information: Command Binary Size(KB) -->
-            <td align="center">TBD</td> <!-- Inference Time(msec): EVB -->
+            <td align="center">8.53</td> <!-- Inference Time(msec): EVB -->
             <td align="center">0.411</td> <!-- Evaluation Result: FP32 IoU=0.50 -->
             <td align="center">0.401</td> <!-- Evaluation Result: INT8 IoU=0.50 -->
         </tr>
