@@ -8,6 +8,12 @@ Welcome to the Telechips Model Zoo!!
 
 This repository provides a collection of neural network models optimized for Telechips AI SoCs (TCC750x). This repository includes a variety of models for tasks such as classification and object detection, is provided in a format ready to run on evaluation boards, and includes benchmark results that demonstrate the performance and efficiency of Telechips hardware.
 
+<!--
+텔레칩스 모델주(Model Zoo)에 오신 것을 환영합니다!
+
+본 저장소는 텔레칩스 칩셋(TCC750X 등)에 최적화된 다양한 신경망 모델들을 제공합니다. Classification, Object Detection 등 여러 작업에 활용할 수 있는 신경망을 실제 보드에서 실행 가능한 형태로 제공하며, 칩 기반의 성능을 직접 확인할 수 있도록 성능 측정 결과도 함께 포함되어 있습니다.
+-->
+
 ---
 
 ## **1. Chip Description**
@@ -25,13 +31,27 @@ TBD – Specifications will be announced soon.
 
 These AI-enabled SoCs offer real-time neural network inference capabilities with high efficiency and scalability for automotive applications.
 
+<!--
+텔레칩스는 **NPU (Neural Processing Unit, 신경망 처리 장치)**가 내장된 세 가지 AI 프로세서를 제공합니다:
+
+TCC750x: 8 TOPS – ADAS 및 비전 기반 애플리케이션을 위한 고성능 프로세서로, 멀티 카메라 처리, 운전자 모니터링(DMS), 고급 딥러닝 추론을 지원합니다.
+
+TCC807x: 8 TOPS – 인포테인먼트 및 스마트 콕핏 시스템에 최적화되어 있으며, AI 기반 멀티미디어 처리, 음성 인식, 사용자 경험 향상 기능을 지원합니다.
+
+TCA2x: TBD – 상세 사양은 추후 공개될 예정입니다.
+
+이 칩셋들은 실시간 AI 추론을 가능하게 하며, 차량용 애플리케이션에서의 고효율성과 확장성을 제공합니다.
+-->
 
 ---
 
 ## **2. Overview of Overall Model Zoo**
 The following table summarizes the neural network models supported on Telechips hardware.
 The name of each model links to its dedicated page with performance metrics and deployment instructions.
-
+<!--
+아래 표는 텔레칩스 칩에서 동작하는 신경망 모델 목록입니다.
+각 모델명은 상세 페이지로 연결되며, 해당 칩에서의 성능 측정 결과를 확인하실 수 있습니다.
+-->
 
 ### [TCC750x](./tcc750x/README.md)
 
